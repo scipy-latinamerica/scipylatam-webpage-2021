@@ -1,0 +1,71 @@
+_model: cdc
+---
+_template: cdc.html
+---
+cdc_content:
+
+# Propósito
+Scipy Latam se dedica a fornecer uma experiência de conferência agradável e sem assédio para todos, independentemente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, tamanho corporal, raça, idade, religião ou falta dela.
+
+<b> Linguagem sexual e imagens não são adequadas. </b>
+
+<b> Não toleramos assédio aos participantes da conferência de qualquer forma. </b>
+
+Esperamos que todos os participantes da comunidade cumpram este Código de Conduta em toda a comunidade, bem como em todas as comunicações individuais relativas aos negócios da comunidade.
+
+Os participantes da conferência que violarem essas regras podem ser sancionados ou expulsos da conferência sem reembolso, a critério dos organizadores da conferência.
+
+# Comportamento esperado
+- <span class = "green"> Participe de forma autêntica e ativa. Ao fazer isso, você contribui para a saúde e longevidade desta comunidade. </span>
+- <span class = "green"> Tenha consideração e respeito em seu discurso e ações. </span>
+- <span class = "green"> Tentativa de colaboração antes do conflito </span>
+- <span class = "green"> Use linguagem inclusiva </span>
+- <span class = "green"> Evite discursos e comportamentos humilhantes, discriminatórios ou de assédio. </span>
+- <span class = "green"> Esteja atento ao ambiente ao seu redor e aos outros participantes. </span>
+- <span class = "green"> Alerte os líderes da comunidade se notar uma situação perigosa, alguém em perigo ou violações deste Código de Conduta, mesmo que pareçam irrelevantes. </span>
+
+# Comportamento inaceitável
+Os comportamentos inaceitáveis ​​incluem, mas não se limitam a:
+
+- <span class = "red"> Discurso ou ações abusivas, discriminatórias, depreciativas ou humilhantes </span>
+- <span class = "red"> Imagens sexuais </span>
+- <span class = "red"> Assédio, intimidação ou perseguição </span>
+- <span class = "red"> Interrupção sustentada de conversas ou outros eventos </span>
+- <span class = "red"> Contato on-line impróprio </span>
+- <span class = "red"> Invasão de espaço pessoal </span>
+- <span class = "red"> Atenção sexual indesejada </span>
+- <span class = "red"> Advogar ou encorajar qualquer um dos comportamentos acima </span>
+
+
+# Consequências de comportamento inaceitável
+Comportamento inaceitável de qualquer membro da comunidade, incluindo patrocinadores e aqueles com autoridade para tomar decisões, não será tolerado.
+
+Qualquer pessoa solicitada a interromper um comportamento inaceitável deve obedecer imediatamente. Se um membro da comunidade se envolver em um comportamento inaceitável, os organizadores da comunidade podem tomar qualquer ação que considerem apropriada, incluindo um banimento temporário ou expulsão permanente da comunidade sem aviso prévio (e sem reembolso no caso de um evento pago).
+
+# Se você testemunhar ou estiver sujeito a um comportamento inaceitável
+Se você estiver sujeito a ou testemunhar um comportamento inaceitável, ou tiver qualquer outra preocupação, notifique um organizador da comunidade o mais rápido possível.
+
+Publicaremos durante a conferência informações sobre onde fazer um relatório. Contate através do Discord "@Christian" ou "@Darya" para a comunicação de qualquer comportamento inaceitável.
+
+Ao fazer um relatório pessoal, com o seu consentimento, os membros da equipe podem envolver outros funcionários do evento para garantir que seu relatório seja administrado de maneira adequada. Este relatório permanecerá privado.
+
+Durante este bate-papo privado, pediremos que você nos conte o que aconteceu. Isso pode ser perturbador, mas vamos lidar com isso da forma mais respeitosa possível, e você pode trazer alguém para apoiá-lo. Você não será solicitado a confrontar ninguém e não contaremos a ninguém quem você é.
+
+Valorizamos seu atendimento.
+
+# Denúncia anônima
+<a href="https://conf.scipy.lat/forms/formulario-infracao-cdc/" target="_blank">Você pode fazer uma denúncia anônima.</a>
+
+Não podemos acompanhar uma denúncia anônima diretamente com você, mas iremos investigá-la totalmente e tomar todas as medidas necessárias para evitar uma recorrência
+
+# Resolvendo Reclamações
+Se você sentir que foi falsamente ou injustamente acusado de violar este Código de Conduta, você deve notificar um dos organizadores do evento com uma descrição concisa de sua reclamação.
+
+Sua reclamação será tratada de acordo com nossas políticas governamentais existentes.
+
+# Créditos
+Este Código de Conduta foi inspirado no código de conduta "Remote Python Pizza".
+---
+cdc_title: Código de Conduta
+---
+title: Scipy Latin America 2021 - Código de Conduta

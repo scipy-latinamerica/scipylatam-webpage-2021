@@ -1,0 +1,22 @@
+{%- set questions = site.get('/faq', alt=this.alt).children.order_by("_id") -%}
+
+<div class="bg-statistics">
+    <div class="container">
+        <a href="{{ '/'|url(alt=this.alt) }}" alt="Home">
+        <div class="bg-image-faq"></div>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="faq">
+                <h1 class="title">{{ this.faq_title }}</h1>
+                {% for question in questions %}
+                    <p class="faq-question">{{ question.question }}</p>
+                    <p class="faq-answer">{{ question.answer|safe }}</p>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+[project]
+name = scipy-latin-america-2021
+url = http://conf.scipy.lat
+output_path = build
+
+[packages]
+lektor-webpack-support = 0.5
+lektor-google-analytics = 0.1.3
+
+[alternatives.pt]
+name = Português
+primary = yes
+locale = /pt/
+
+[alternatives.es]
+name = Español
+url_prefix = /es/
+locale = es
+
+[alternatives.en]
+name = English
+url_prefix = /en/
+locale = en
+
+[servers.ghpages]
+target = ghpages://scipy-latinamerica/scipylatam-webpage-2021?cname=conf.scipy.lat

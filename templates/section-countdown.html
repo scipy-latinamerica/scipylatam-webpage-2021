@@ -1,0 +1,41 @@
+{%- from "macros/translation.html" import transbag -%}
+{%- set _days = transbag('countdown', this.alt, 'days') -%}
+{%- set _hours = transbag('countdown', this.alt, 'hours') -%}
+{%- set _minutes = transbag('countdown', this.alt, 'minutes') -%}
+{%- set _seconds = transbag('countdown', this.alt, 'seconds') -%}
+
+<div class="counter bg-statistics">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="counter-title">{{ this.countdown_message }}</h1>
+                <div class="counter-container">
+                    <div class="counter-cell">
+                        <div class="progress">
+                            <div id="days" class="progress-value">.</div>
+                        </div>
+                        <div class="progress-desc">{{ _days }}</div>
+                    </div>
+                    <div class="counter-cell">
+                        <div class="progress">
+                            <div id="hours" class="progress-value">.</div>
+                        </div>
+                        <div class="progress-desc">{{ _hours }}</div>
+                    </div>
+                    <div class="counter-cell">
+                        <div class="progress">
+                            <div id="minutes" class="progress-value">.</div>
+                        </div>
+                        <div class="progress-desc">{{ _minutes }}</div>
+                    </div>
+                    <div class="counter-cell">
+                        <div class="progress">
+                            <div id="seconds" class="progress-value">.</div>
+                        </div>
+                        <div class="progress-desc">{{ _seconds }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

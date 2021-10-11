@@ -1,0 +1,15 @@
+{% extends "error.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="row text-center">
+        <div class="col-lg-12 col-xl-12">
+            <a href="{{ '/'|url(external=True) }}">
+                <img src="{{ "/static/img/404.png"|url(external=True) }}" style="padding-top:100px"/>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

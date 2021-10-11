@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ this.alt }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="author" content="{{ this.author }}">
+    <meta name="description" content="{{ this.description }}">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/static/img/favicon/apple-touch-icon.png"|asseturl }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/static/img/favicon/favicon-32x32.png"|asseturl }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/static/img/favicon/favicon-16x16.png"|asseturl }}">
+    <link rel="manifest" href="{{ "/static/img/favicon/site.webmanifest"|asseturl }}">
+    <link rel="mask-icon" href="{{ "/static/img/favicon/safari-pinned-tab.svg"|asseturl }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>{% block title %}{{ this.title }}{% endblock %}</title>
+
+    <link rel="stylesheet" href="{{ '/static/dist/app.css'|asseturl }}">
+  </head>
+<body>
+    {% block body %}
+    {% endblock body %}
+    {% block bottom_scripts %}
+    <script type=text/javascript src="{{ '/static/dist/app.js'|asseturl }}" charset="utf-8"></script>
+    {{ generate_google_analytics() }}
+    {% endblock %}
+  </body>
+</html>

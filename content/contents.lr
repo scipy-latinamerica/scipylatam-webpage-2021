@@ -1,0 +1,94 @@
+_model: conference
+---
+_template: page.html
+---
+title: SciPy Latin America 2021
+---
+description: Bem-vindo a SciPy Latin America 2021!
+---
+body: 
+---
+ogimage: https://pbs.twimg.com/profile_banners/3045030161/1626653950/1500x500
+---
+ogimage_height: 500
+---
+ogimage_width: 1500
+---
+author: Comunidade Scipy Latin America
+---
+subscription_form_url: ./forms/formulario-palestrante/
+---
+conference_title:
+
+# 8ª Conferência
+<h1 class="header-title-margin">SciPy América Latina</h1>
+---
+conference_action_button: Participe agora
+---
+conference_body: <p class="p-large">A 8ª conferência latino americana de python científico acontecerá <b>em 11-12 de dezembro, 100% online e gratuita</b>. A conferência SciPy reúne anualmente entusiastas, desenvolvedores, acadêmicos e empresas com o intuito de mostrar seus projetos científicos, soluções mais recentes e principalmente trocar experiências. <b>As inscrições para os palestrantes estão abertas e vão até o dia 1 de novembro!</b> </p>
+---
+about_conference_body:
+
+A [SciPy Latam](https://t.me/scipyla) é uma <b>comunidade com o propósito de promover a ciência, a computação e, principalmente, o uso da linguagem Python na resolução de problemas científicos.</b> Artigos, eventos, bibliotecas científicas e softwares open source são alguns dos exemplos que resultam da colaboração de pesquisadores, desenvolvedores e entusiastas da comunidade atuantes nas mais diversas áreas das ciências exatas, biológicas, humanas, e da terra, etc. 
+
+Nossa conferência anual, que reúne centenas de membros, desde 2013 já visitou países como Argentina, Brasil e Colômbia. Em decorrência da pandemia de Covid-19, a <b>Scipy Latin America 2020</b>, que seria realizada em formato presencial no Recife (Brasil) teve que ser cancelada. Para o ano de 2021,  estamos nos adaptando ao contexto mundial e inspirados por eventos similares, decidimos realizar a conferência no formato virtual.
+
+Nossa chamada de trabalho já está aberta e segue até o dia <b>1 de Novembro</b>. Fique de olho nas nossas redes sociais para o anúncio dos keynotes e mais informações do evento. Te esperamos lá!
+
+---
+about_conference_title: Sobre a SciPy Latam
+---
+countdown_message: Tempo até o evento:
+---
+subscription_action_button: Participe agora
+---
+subscription_title: Quer palestrar?
+---
+subscription_body: Estamos com nossa chamada de propostas aberta! Acesse nosso formulário para palestrantes clicando no botão abaixo e contribua com nosso conteúdo.
+---
+footer_message: 2021 - criado pela comunidade @scipylat
+---
+social_media:
+
+#### social ####
+name: Facebook
+----
+icon: 
+----
+link: https://www.facebook.com/scipyla/
+#### social ####
+name: Instagram
+----
+icon: 
+----
+link: https://www.instagram.com/scipyla/
+#### social ####
+name: Twitter
+----
+icon: 
+----
+link: https://twitter.com/scipyla
+#### social ####
+name: Youtube
+----
+icon: 
+----
+link: https://www.youtube.com/c/SciPyLA
+#### social ####
+name: Linkedin
+----
+icon: 
+----
+link: https://www.linkedin.com/company/scipy-latin-america/about/
+---
+follow_media_message: Siga-nos em nossas redes sociais:
+---
+code_of_conduct: 
+---
+contact_action: Fale conosco
+---
+contact_body: Dúvidas sobre evento? Deseja patrocinar o evento? Sugestões? Reclamações? Visite nossa página de ["perguntas frequentes"](./faq) ou fale diretamente conosco clicando no botão abaixo.
+---
+contact_title: Quer entrar em contato conosco?
+---
+contact_action_button: Fale Conosco

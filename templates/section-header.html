@@ -1,0 +1,19 @@
+<header id="header" class="header">
+    <div class="container">
+        <div class="row row-align-center">
+            <div class="col-lg-6 col-xl-6">
+                <div class="image-container">
+                    <img class="header-image" src="{{ "/static/img/header.png"|asseturl }}" alt="alternative">
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                 <div class="text-container">
+                    {{ this.conference_title }}
+                    {{ this.conference_body }}
+                    <a class="btn-solid-lg" target="_blank" href="{{ this.subscription_form_url }}">{{ this.conference_action_button }} <i class="bi bi-box-arrow-in-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+

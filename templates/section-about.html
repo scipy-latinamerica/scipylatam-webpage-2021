@@ -1,0 +1,27 @@
+{%- from "macros/translation.html" import transbag -%}
+{%- set _volunteer_message = transbag('about', this.alt, 'volunteer_message') -%}
+{%- set _volunteer_link = transbag('about', this.alt, 'volunteer_link') -%}
+{%- set _volunteer_form = transbag('about', this.alt, 'volunteer_form') -%}
+{%- set _cdc_message = transbag('about', this.alt, 'cdc_message') -%}
+{%- set _cdc_link = transbag('about', this.alt, 'cdc_link') -%}
+
+<div id="about" class="basic-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-xl-6">
+                <div class="text-container">
+                    <h1 class="header-title-margin">{{ this.about_conference_title }}</h1>
+                    {{ this.about_conference_body }}
+                    <hr/>
+                    <h6>{{ _volunteer_message }} <a href="{{ _volunteer_form }}" target="_blank">{{ _volunteer_link }}</a>.</h6>
+                    <h6>{{ _cdc_message }} <a href="{{ '/cdc'|url(alt=this.alt) }}">{{ _cdc_link }}</a>.</h6>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="image-container">
+                    <img class="header-image" src="{{ "/static/img/details-1.png"|asseturl }}" alt="alternative">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
