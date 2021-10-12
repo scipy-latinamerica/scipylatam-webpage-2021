@@ -4,19 +4,19 @@
 {%- set _contact_menu = transbag('menu', this.alt, 'contact') -%}
 
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light" aria-label="Main navigation">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-scipy" aria-label="Main navigation">
     <div class="container">
 
-        <a class="navbar-brand logo-image" href="{{ '/'|url(alt=this.alt) }}">
+        <a class="navbar-brand" href="{{ '/'|url(alt=this.alt) }}">
             <img src="{{ "/static/img/logo.svg"|asseturl }}" width="252" height="56" alt=""/>
         </a>
 
-        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mx-auto navbar-nav-scroll">
+        <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#about">{{ _about_menu }}</a>
                 </li>
@@ -30,22 +30,22 @@
                     <a class="nav-link" href="{{ '/faq/'|url(alt=this.alt) }}"> F.A.Q. </a>
                 </li>
             </ul>
-        </div>
 
-        <ul class="navbar-nav mx-auto navbar-nav-scroll">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" alt="Language">
-                    <i class="bi bi-globe"></i> {{ this.alt|upper }}
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                    <li><a class="dropdown-item" href="{{ '/'|url(alt='pt') }}">PT</a></li>
-                    <li><div class="dropdown-divider"></div></li>
-                    <li><a class="dropdown-item" href="{{ '/'|url(alt='es') }}">ES</a></li>
-                    <li><div class="dropdown-divider"></div></li>
-                    <li><a class="dropdown-item" href="{{ '/'|url(alt='en') }}">EN</a></li>
-                </ul>
-            </li>
-         </ul>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" alt="Language">
+                        <i class="bi bi-globe"></i> {{ this.alt|upper }}
+                    </a>
+                    <ul class="dropdown-menu text-center" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="{{ '/'|url(alt='pt') }}">PT</a></li>
+                        <li><div class="dropdown-divider"></div></li>
+                        <li><a class="dropdown-item" href="{{ '/'|url(alt='es') }}">ES</a></li>
+                        <li><div class="dropdown-divider"></div></li>
+                        <li><a class="dropdown-item" href="{{ '/'|url(alt='en') }}">EN</a></li>
+                    </ul>
+                </li>
+             </ul>
+        </div>
 
     </div>
 </nav>
