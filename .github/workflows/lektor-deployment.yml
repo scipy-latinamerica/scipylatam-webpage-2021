@@ -8,12 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy-dev:
-    name: Deploy to Development
-    if: github.event_name == 'pull_request'
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: Development
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.7
@@ -56,6 +52,17 @@ jobs:
 
       # -----------------------------
 
+      - name: Deploy Finished
+        run: echo "Deploy finished at $(date +'%Y-%m-%dT%H:%M:%S')!"
+
+  deploy-dev:
+    name: Deploy to Development
+    if: github.event_name == 'pull_request'
+    needs: [build]
+    runs-on: ubuntu-latest
+    environment:
+      name: Development
+    steps:
       - name: Deploy Finished
         run: echo "Deploy finished at $(date +'%Y-%m-%dT%H:%M:%S')!"
 
