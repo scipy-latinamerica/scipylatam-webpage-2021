@@ -118,12 +118,12 @@ jobs:
 
       - name: Deploy Finished
         env:
-          LEKTOR_DEPLOY_USERNAME: lucenacam
+          LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
           LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
+          URL_SITE: ${{ secrets.URL_SITE }}
         run: |
-          export URL_SITE=https://dev.scipy.lat
           envsubst < "lektorproject.template" > "scipy-latin-america-2021.lektorproject"
-
+          cat scipy-latin-america-2021.lektorproject
           poetry run lektor build -f webpack
           poetry run lektor deploy staging
           echo "Deploy finished at $(date +'%Y-%m-%dT%H:%M:%S')!"
