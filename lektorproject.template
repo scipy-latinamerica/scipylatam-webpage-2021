@@ -1,6 +1,6 @@
 [project]
 name = scipy-latin-america-2021
-url = https://conf.scipy.lat
+url = ${URL_SITE}
 output_path = build
 
 [packages]
