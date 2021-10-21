@@ -25,11 +25,11 @@ locale = en
 [servers.staging]
 enabled = yes
 name = Staging
-target = ghpages://lucenacam/scipy-latinamerica-2021?cname=dev.scipy.lat
+target = ghpages+https://lucenacam/scipy-latinamerica-2021?cname=dev.scipy.lat
 default = yes
 
 [servers.production]
 enabled = yes
 name = Production
-target = ghpages://scipy-latinamerica/scipylatam-webpage-2021?cname=conf.scipy.lat
+target = ghpages+https://scipy-latinamerica/scipylatam-webpage-2021?cname=conf.scipy.lat
 default = no
