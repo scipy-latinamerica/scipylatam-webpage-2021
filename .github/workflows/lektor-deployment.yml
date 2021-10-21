@@ -123,7 +123,7 @@ jobs:
           URL_SITE: ${{ secrets.URL_SITE }}
         run: |
           envsubst < "lektorproject.template" > "scipy-latin-america-2021.lektorproject"
-          poetry run lektor server -f webpack
+          poetry run lektor build -f webpack
           poetry run lektor deploy staging
           echo "Deploy finished at $(date +'%Y-%m-%dT%H:%M:%S')!"
 
@@ -181,6 +181,6 @@ jobs:
           LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
           LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
         run: |
-          poetry run lektor server -f webpack
+          poetry run lektor build -f webpack
           poetry run lektor deploy production
           echo "Deploy finished at $(date +'%Y-%m-%dT%H:%M:%S')!"
