@@ -51,36 +51,26 @@ follow_media_message: Follow us in our social media channels:
 ---
 footer_message: 2021 - created by @scipylat community
 ---
-social_media:
+social:
 
 #### social ####
-name: Facebook
-----
-icon: 
+social_network: facebook
 ----
 link: https://www.facebook.com/scipyla/
 #### social ####
-name: Instagram
-----
-icon: 
+social_network: instagram
 ----
 link: https://www.instagram.com/scipyla/
 #### social ####
-name: Twitter
-----
-icon: 
+social_network: twitter
 ----
 link: https://twitter.com/scipyla
 #### social ####
-name: Youtube
-----
-icon: 
+social_network: youtube
 ----
 link: https://www.youtube.com/c/SciPyLA
 #### social ####
-name: Linkedin
-----
-icon: 
+social_network: linkedin
 ----
 link: https://www.linkedin.com/company/scipy-latin-america/about/
 ---
@@ -89,3 +79,5 @@ contact_action_button: Contact us
 contact_body: Questions about the event? Do you want to sponsor the event? Suggestions? Claims? Visit our ["Frequently Asked Questions"](./faq) page or contact us directly by clicking the button below.
 ---
 contact_title: Do you want to contact us?
+---
+activate_keynotes: yes
