@@ -5,6 +5,12 @@
     {% include "section-header.html" %}
     {% include "section-countdown.html" %}
     {% include "section-about.html" %}
+    {% if this.activate_keynotes %}
+    {% include "section-keynotes.html" %}
+    {% endif %}
+    {% if this.activate_speakers %}
+    {% include "section-palestrantes.html" %}
+    {% endif %}
     {% include "section-subscription.html" %}
     {% include "section-contact.html" %}
     {% include "section-footer.html" %}
