@@ -1,0 +1,30 @@
+_template: keynote.html
+---
+avatar: tatiana-al-chueyr.png
+---
+avatar_hover: tatiana-al-chueyr-hover.png
+---
+bio: Tatiana usa software livre e machine learning para melhorar a experiência de milhões de usuários da BBC. Formada em Engenharia da Computação pela Unicamp, já trabalhou no desenvolvimento de aplicações de imagens médicas, para o Ministério da Ciência e Tecnologia brasileiro. Trabalhou na Globo.com, desenvolvendo aplicações para o portal de notícias G1 e a plataforma semântica. Teve experiência no desenvolvimento de aplicações educacionais para EF (Education First). Trabalha na BBC há quase quatro anos, desenvolvendo plataformas  e sistemas de recomendação.
+---
+cargo: Principal Data Engineer
+---
+empresa: BBC London
+---
+name: Tatiana Al Chueyr
+---
+social:
+
+#### social ####
+social_network: github
+----
+link: https://github.com/tatiana
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/tati_alchueyr
+#### social ####
+social_network: linkedin
+----
+link: https://uk.linkedin.com/in/tatialchueyr
+---
+adicionado_em: 2021-10-15 10:30:00 -0300
