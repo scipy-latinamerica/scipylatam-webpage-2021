@@ -27,13 +27,11 @@
                 <div class="footer-col third">
                 <p class="p-footer">{{ this.follow_media_message }}</p>
                     <ul class="navbar-nav-footer">
-
-                        {% for social in this.social_media.blocks %}
+                        {% for social in this.social.blocks %}
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ social.link }}">{{ social.name }}</a>
+                            <a class="nav-link" href="{{ social.link }}">{{ social.social_network|title }}</a>
                         </li>
                         {% endfor %}
-
                     </ul>
                 </div>
 

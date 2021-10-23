@@ -48,36 +48,26 @@ subscription_body: Estamos com nossa chamada de propostas aberta! Acesse nosso f
 ---
 footer_message: 2021 - criado pela comunidade @scipylat
 ---
-social_media:
+social:
 
 #### social ####
-name: Facebook
-----
-icon: 
+social_network: facebook
 ----
 link: https://www.facebook.com/scipyla/
 #### social ####
-name: Instagram
-----
-icon: 
+social_network: instagram
 ----
 link: https://www.instagram.com/scipyla/
 #### social ####
-name: Twitter
-----
-icon: 
+social_network: twitter
 ----
 link: https://twitter.com/scipyla
 #### social ####
-name: Youtube
-----
-icon: 
+social_network: youtube
 ----
 link: https://www.youtube.com/c/SciPyLA
 #### social ####
-name: Linkedin
-----
-icon: 
+social_network: linkedin
 ----
 link: https://www.linkedin.com/company/scipy-latin-america/about/
 ---
@@ -92,3 +82,5 @@ contact_body: Dúvidas sobre evento? Deseja patrocinar o evento? Sugestões? Rec
 contact_title: Quer entrar em contato conosco?
 ---
 contact_action_button: Fale Conosco
+---
+activate_keynotes: yes
