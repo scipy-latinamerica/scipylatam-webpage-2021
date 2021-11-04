@@ -40,11 +40,13 @@
                         <p class="title">Apresentação:</p>
                         <p>{{ keynote.bio }}</p>
                         <p class="title">Links:</p>
+                        {% if keynote.social %}
                         <ul class="social-menu">
                             {% for social in keynote.social.blocks %}
                             <li> <a href="{{ social.link }}" target="_blank"><i class="bi bi-{{ social.social_network }}"></i></a> </li>
                             {% endfor %}
                         </ul>
+                        {% endif %}
                     </div>
                 </div>
             </div>

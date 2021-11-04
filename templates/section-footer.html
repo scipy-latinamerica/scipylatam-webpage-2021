@@ -26,6 +26,7 @@
 
                 <div class="footer-col third">
                 <p class="p-footer">{{ this.follow_media_message }}</p>
+                    {% if this.social %}
                     <ul class="navbar-nav-footer">
                         {% for social in this.social.blocks %}
                         <li class="nav-item">
@@ -33,6 +34,7 @@
                         </li>
                         {% endfor %}
                     </ul>
+                    {% endif %}
                 </div>
 
                 <div class="copyright">

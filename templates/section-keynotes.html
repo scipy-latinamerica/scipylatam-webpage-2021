@@ -1,5 +1,5 @@
 {%- from "macros/keynote.html" import render_keynote -%}
-{%- set keynotes = site.get('/keynotes', alt=this.alt).children -%}
+{%- set keynotes = site.get('/keynotes', alt=this.alt).children.filter(F.published).order_by('adicionado_em') -%}
 
 <div id="keynotes" class="basic-2 bg-keynotes">
     <div class="container">
