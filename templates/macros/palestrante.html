@@ -1,0 +1,54 @@
+{% macro render_palestrante(palestrante, size=3) %}
+
+<div class="col-lg-{{ size }} col-xl-{{ size }}">
+    <div class="palestrante">
+        <a data-bs-toggle="modal" href="#{{ palestrante._id }}">
+            <img class="img"
+            src="{{ palestrante.attachments.images.get(palestrante.avatar)|url }}"
+            width=216 height=238 alt="{{ palestrante.name }}" />
+        </a>
+        <h3 class="text-center">
+            {{ palestrante.name }}
+        </h3>
+        <p class="text-center">{{ palestrante.empresa }} - {{ palestrante.cargo }}</p>
+
+        <div class="modal fade" id="{{ palestrante._id }}" tabindex="-1" aria-labelledby="{{ palestrante.name }}" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" style="max-width: 1000px; padding: 0.5rem;">
+            <div class="modal-content">
+              <div class="modal-body modal-keynote">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="btn-close btn-sm float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="col-lg-6 keynote-grid">
+                            <img class="img-fluid" src="{{ palestrante.attachments.images.get(palestrante.avatar)|url }}" width=350 height=350 alt="hahaha">
+                            <p class="title title-name text-center">{{ palestrante.name }}</p>
+                            <p class="subtitle text-center">{{ palestrante.empresa }} - {{ palestrante.cargo }}</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="title">Apresentação:</p>
+                            <p>{{ palestrante.title }}</p>
+                            <p>{{ palestrante.description }}</p>
+                            <p class="title">Links:</p>
+                            {% if palestrante.social %}
+                            <ul class="social-menu">
+                                {% for social in palestrante.social.blocks %}
+                                <li> <a href="{{ social.link }}" target="_blank"><i class="bi bi-{{ social.social_network }}"></i></a> </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+</div>
+
+{% endmacro %}
+
