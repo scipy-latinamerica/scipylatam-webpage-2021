@@ -84,3 +84,5 @@ contact_title: Quer entrar em contato conosco?
 contact_action_button: Fale Conosco
 ---
 activate_keynotes: yes
+---
+activate_speakers: yes
