@@ -31,9 +31,9 @@ title: Concurrencia y Paralelismo en Python
 ---
 description: No siempre está claro qué diferencias, ventajas y problemas tienen las diferentes alternativas que Python nos ofrece para ejecutar múltiples cosas al mismo tiempo. La idea de la charla es hacer una intro a qué hace realmente cada una de ellas, y a partir de ello compararlas y explicar qué ventajas y problemas tienen. Charlar un poco sobre qué conviene en cada caso, qué tenemos que preocuparnos por manejar, etc. Y para que sirva por completo, mostrar un mínimo ejemplo implementado con las tres opciones.
 ---
-publish: false
+published: false
 ---
 topic: Ciência de Computação
 ---
-presentation_time: 2021-12-11 08:00:00 -0300
+presentation_time: 2021-12-12 08:00:00 -0300
 ---

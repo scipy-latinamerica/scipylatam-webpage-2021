@@ -22,7 +22,7 @@ link: https://twitter.com/iuribtt
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: pt
 ---
@@ -30,9 +30,9 @@ title: Como utilizei Python para produzir previsão de ocorrências de casos de 
 ---
 description: Proponho dialogar sobre como fiz o meu projeto de Mestrado, mostra dados os notebook, como obtive informação, coletei, desafios e as vantagens.
 ---
-publish: false
+published: false
 ---
 topic: Aprendizado de Máquinas
 ---
-presentation_time: 2021-12-11 08:00:00 -0300
+presentation_time: 2021-12-12 08:00:00 -0300
 ---

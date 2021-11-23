@@ -26,7 +26,7 @@ link: https://twitter.com/ogecece
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: pt
 ---
@@ -41,7 +41,7 @@ Para isso, primeiro é necessário raspar os documentos dos websites onde são p
 Esta palestra é sobre misturar as coisas para obter um resultado melhor: inovação cívica, dados abertos, raspagem de dados e ciência!
 
 ---
-publish: false
+published: false
 ---
 topic: Dados Abertos
 ---

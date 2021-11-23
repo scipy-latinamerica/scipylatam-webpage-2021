@@ -25,7 +25,7 @@ link: https://github.com/wendelvilaca
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: pt
 ---
@@ -35,7 +35,7 @@ description: Esta apresentação é baseada na minha dissertação de mestrado. 
 
 Esse trabalho buscou a abertura da discussão de transparência governamental referente aos gastos públicos e a importância dos dados abertos para democracia. Também se teve atenção no desenvolvimento de uma aplicação para sociedade que pudesse ser pragmática e auxiliar a população no exercício do controle social a respeito dos gastos de seus representantes.
 ---
-publish: false
+published: false
 ---
 topic: Ciência de Dados
 ---

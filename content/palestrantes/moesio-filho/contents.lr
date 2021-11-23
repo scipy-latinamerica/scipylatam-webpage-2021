@@ -30,7 +30,7 @@ title: Métodos de Aprendizagem por Reforço para resolver problemas de Otimiza�
 ---
 description: O intuito seria demonstrar como foi feita a implementação dos códigos utilizados no artigo "Zeroth Order Policy Search Methods for Global Optimization Problems: An Experimental Study", aceito para publicação no ENIAC 2021. A implementação foi feita em Python 3.8 com o uso do TensorFlow 2.5.0, TF-Agent 0.8.0, entre outras. Inicialmente, seriam introduzidos os conceitos básicos de Aprendizagem por Reforço (RL), com o uso de exemplos de alguns problemas clássicos de RL, depois uma breve apresentação do problema de se aprender algoritmos de otimização por meio de RL, e, por fim, como as diferentes bibliotecas foram utilizadas para executar os experimentos.
 ---
-publish: false
+published: false
 ---
 topic: Aprendizado de Máquinas
 ---

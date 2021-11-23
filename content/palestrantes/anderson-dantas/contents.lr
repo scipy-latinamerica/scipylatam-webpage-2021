@@ -30,7 +30,7 @@ title: Monitorando Spiders com Pandas
 ---
 description: Dependendo do volume de dados, monitorar spiders pode se tornar uma tarefa bastante complicada. Às vezes é preciso garantir que os dados estão sendo extraídos corretamente ou até que não há inconsistências. Esse tipo de análise pode ser facilitada com o uso do Pandas que tem a possibilidade de exibir de forma mais simples um grande volume de dados.
 ---
-publish: false
+published: false
 ---
 topic: Engenharia de Dados
 ---

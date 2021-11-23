@@ -18,7 +18,7 @@
                     <button type="button" class="btn btn-light btn-circle">+</button>
                 </h3>
             </a>
-            <p class="text-center">{{ keynote.empresa }} - {{ keynote.cargo }}</p>
+            <p class="text-center">{{ keynote.company }} - {{ keynote.job }}</p>
         </div>
     </div>
 
@@ -34,7 +34,7 @@
                     <div class="col-lg-6 keynote-grid">
                         <img class="img-fluid" src="{{ keynote.attachments.images.get(keynote.avatar)|url }}" width=350 height=350 alt="hahaha">
                         <p class="title title-name text-center">{{ keynote.name }}</p>
-                        <p class="subtitle text-center">{{ keynote.empresa }} - {{ keynote.cargo }}</p>
+                        <p class="subtitle text-center">{{ keynote.company }} - {{ keynote.job }}</p>
                     </div>
                     <div class="col-lg-6">
                         <p class="title">Apresentação:</p>

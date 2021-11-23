@@ -4,12 +4,22 @@ avatar_hover: gigi-lucena-hover.png
 ---
 bio: Gigi es una desarrolladora de software en el Laboratorio de Lanzamiento de Cohetes de la NASA. Anteriormente, trabajó como desarrolladora de software en Unit Software en Brasil, liderando un equipo de 7 personas durante 4 años. Tiene una licenciatura en informática de CSUN y actualmente es estudiante de maestría en robótica del instituto GATECH. En la NASA, trabajó en misiones como Marte (2020). Madre de David, también trabaja como voluntaria en el área de educación, a través de conferencias sobre código y su experiencia en la NASA con el fin de animar a los niños a mejorar sus conocimientos.
 ---
-cargo: Software Engineer
+job: Software Engineer
 ---
-empresa: NASA | Jet Propulsion Laboratory
+company: NASA | Jet Propulsion Laboratory
 ---
 name: Gigi Lucena
 ---
 adicionado_em: 2021-11-03 00:00:00 -0300
 ---
 published: yes
+---
+language: pt
+---
+presentation_time: 2021-12-11 09:00:00 -0300
+---
+pronouns: Ela/Dela
+---
+type: keynote
+---
+level: Todos

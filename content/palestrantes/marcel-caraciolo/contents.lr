@@ -24,7 +24,7 @@ link: https://github.com/marcelcaraciolo/
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: en
 ---
@@ -32,9 +32,9 @@ title: Meet Runpandas: How Applied Data Science with Python helped me to run bet
 ---
 description: Sports analytics is becoming increasingly popular, but there are few analytics packages focused on running activities. Running comes to attention due to the volume and variety of data produced by smartwatches and social applications (Strava, MapMyRun, etc), and is a popular sport around the world. More runners each year are looking after longer distances: 5k, 10km, 21km and 42km (the famous marathon) and 	 The package runpandas comes as an alternative to explore the historical data behind the run session as also reveal some running insights from popular world running races. For anyone interested in applied data analytics, it will be an opportunity to learn different data applications and feel like going for a run for the first time! 
 ---
-publish: false
+published: false
 ---
 topic: Ciência de Dados
 ---
-presentation_time: 2021-12-11 08:00:00 -0300
+presentation_time: 2021-12-12 08:00:00 -0300
 ---

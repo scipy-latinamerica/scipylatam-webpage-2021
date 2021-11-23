@@ -30,7 +30,7 @@ title: Otimização da Arquitetura de Redes Neurais Convolucionais usando Python
 ---
 description: Nos últimos anos, a adoção de Redes Neurais Convolucionais Profundas (RNCs) tem se destacado na resolução de tarefas de visão computacional, como a classificação de imagens. Há uma variedade de arquiteturas, com tamanhos e complexidades variados e um número crescente de parâmetros treináveis. Encontrar a configuração e arquitetura ideais tornou-se uma tarefa difícil, pelo fato do problema ser totalmente dependente do conjunto de dados associado. Nesta palestra, será apresentada uma solução que automatiza o processo de seleção/otimização da RNC, maximizando as chances de sucesso da rede em tarefas de classificação de imagens. Para a criação da solução em questão, usamos os frameworks DEAP e PonyGE, ambos implementados em Python. A presente solução foi avaliada em diferentes tarefas de classificação de imagens, sendo seus resultados publicados em evento internacional.
 ---
-publish: false
+published: false
 ---
 topic: Aprendizado Profundo
 ---

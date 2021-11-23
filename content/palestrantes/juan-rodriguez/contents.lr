@@ -40,7 +40,7 @@ description: Sincerémonos: nos gusta que los proyectos que usamos estén bien d
 
 En este taller veremos cómo documentar nuestros proyectos usando Sphinx, la herramienta utilizada para la propia documentación de Python y muchos otros proyectos más. Veremos cómo crear un proyecto desde cero, cómo escribir documentación narrativa, y también cómo generar de manera automática la referencia de la API de nuestro código. Para ello utilizaremos MyST, un nuevo dialecto de CommonMark compatible con Sphinx y que nos trae toda la potencia de reStructuredText, con la familiaridad de Markdown. Finalmente, publicaremos nuestro proyecto en Read the Docs, un servicio online de alojamiento para documentación.
 ---
-publish: false
+published: false
 ---
 topic: Documentação
 ---
