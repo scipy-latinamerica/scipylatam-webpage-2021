@@ -405,4 +405,24 @@
     }
   }
 
+  .nav-pills-schedule {
+    color: #3C3C3B !important;
+    border: 2px solid #3C3C3B !important;
+    background-color: #fff !important;
+    margin-right: 10px;
+
+    &:hover {
+      color: #fff !important;
+      background-color: #12A348 !important;
+      border: 2px solid #fff !important;
+    }
+
+  }
+
+  .nav-pills-schedule.active {
+    color: #fff !important;
+    background-color: #12A348 !important;
+    border: 2px solid #fff !important;
+  }
+
 }
