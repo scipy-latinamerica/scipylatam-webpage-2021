@@ -1,0 +1,42 @@
+name: Kadidja Oliveira
+---
+pronouns: ela/dela
+---
+avatar: kadidja-oliveira.png
+---
+bio: Analista de Sistemas (UNEB), arquivista (UnB) e tecnóloga em Gestão Pública(IFB). Mestra e Doutoranda em Ciência da Informação (UnB). Atua como Professora na área de Informação e Comunicação, Informática e Ciência da Computação. Ministra disciplinas de Lógica e Programação com Python, Engenharia de Software, Programação para Internet e Informática. Especialista em E-learning, desenvolve projetos com metodologias ativas e analítica na educação à distância. Educação continuada é seu lema. 
+---
+company: Institituto Federal de Brasília - IFB e Universidade Federal do Amazonas- UFAM
+---
+job: Professora e pesquisadora. 
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://br.linkedin.com/in/kadidja
+#### social ####
+social_network: github
+----
+link: https://github.com/Kadidjah
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/Kadidjah
+
+---
+type: talk
+---
+level: Principiante
+---
+language: pt
+---
+title: O ENSINO DA LINGUAGEM PYTHON NO ENSINO SUPERIOR
+---
+description: Considerando as disciplinas de algoritmos e programação de computadores, presente em diversas áreas de conhecimento, como nas Engenharias, na Linguística, na Ciência da Informação, na Biblioteconomia, em Tecnologia de Sistemas para Internet, entre outras, tem-se percebido a demanda do ensino da linguagem Python para o contexto do Data Science. Nesse cenário, a proposta é apresentar com tem sido o processo de ensino no formato remoto - ocasionado pela Pandemia da Covid-19 - que impulsionou o uso de tecnologias digitais de informação e comunicação TDICs como ferramenta de apoio para o processo de aprendizagem.
+---
+publish: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

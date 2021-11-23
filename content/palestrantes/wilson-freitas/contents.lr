@@ -1,0 +1,43 @@
+name: Wilson Freitas
+---
+pronouns: he/him/his
+---
+avatar: wilson-freitas.png
+---
+bio: Físico que trabalha no Mercado Financeiro. Contribui com a comunidade de software livre desenvolvendo pacotes em R e Python aplicados a Finanças Quant. Gosta de fazer pães e corrida de rua nas horas vagas.
+---
+company: Modalmais
+---
+job: Quant Manager
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/wilson-freitas/
+#### social ####
+social_network: github
+----
+link: https://github.com/wilsonfreitas
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/aboutwilson
+
+---
+type: tutorial
+---
+level: Intermediário
+---
+language: en
+---
+title: Análise de Séries Temporais em Python
+---
+description: Temos diversas séries temporais disponíveis no mecado financeiro, preços de ações, cotações de mercadorias (commodities), taxas de juros, etc. Em Econometria Financeira se estuda o comportamento destes ativos para que possamos tomar melhores decisões.
+Contudo, como fazer a análise de séries temporais financeiras em Python? Quais pacotes temos a disposição? Como obter os dados para a análise? Como processar os dados para a análise? O objetivo deste tutorial é apresentar um conjunto de ferramentas em Python utilizadas em Econometria Financeira e algumas aplicações.
+---
+publish: false
+---
+topic: Econometria Financeira
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

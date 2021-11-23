@@ -1,0 +1,49 @@
+name: Giulio Carvalho
+---
+pronouns: ele/él/he
+---
+avatar: giulio-carvalho.png
+---
+bio: Trabalha há 4 anos com raspagem e engenharia de dados e é graduado do curso de Engenharia da Computação pela UFPE. Desde 2019, é membro ativo e faz parte da organização do Grupo de Usuários de Python de Pernambuco (PUG-PE). Desde 2020, integra a equipe de mantenedoras do projeto Querido Diário e também a rede de Pessoas Embaixadoras de Inovação Cívica da Open Knowledge Brasil. Hoje atua como coordenador de Inovação Cívica da OKBR.
+---
+company: Open Knowledge Brasil
+---
+job: Coordenador do Programa Ciência de Dados para Inovação Cívica
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/giuliocc/
+#### social ####
+social_network: github
+----
+link: https://github.com/giuliocc
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/ogecece
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: pt
+---
+title: Querido Diário, hoje eu raspei dados usando... o método científico?!
+---
+description: Diários oficiais municipais são a principal forma de comunicação oficial entre os cidadãos e o poder executivo porque o governo é obrigado por lei a publicar seus atos oficiais nos diários. Porém, não há um padrão ou guia para publicar o conteúdo, ou seja, temos potencialmente 5570 municípios brasileiros publicando cada um do seu jeito. E pior, a maioria faz suas publicações em formatos fechados como PDF ou DOCX.
+
+Para atuar em cima disso, o projeto Querido Diário quer fazer com que os diários oficiais municipais mais acessíveis através da indexação dos documentos disponíveis de forma fácil e enriquecida. Estamos disponibilizando diários de cada vez mais cidades através de uma plataforma web de busca e também uma API aberta.
+
+Para isso, primeiro é necessário raspar os documentos dos websites onde são publicados. E por isso iremos analisar um site de diário oficial para raspagem. Para analisar websites, iremos entender como o método hipotético-dedutivo pode nos ajudar.
+
+Esta palestra é sobre misturar as coisas para obter um resultado melhor: inovação cívica, dados abertos, raspagem de dados e ciência!
+
+---
+publish: false
+---
+topic: Dados Abertos
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

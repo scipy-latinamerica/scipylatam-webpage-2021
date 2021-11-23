@@ -1,0 +1,48 @@
+name: Juan Rodríguez
+---
+pronouns: él/he
+---
+avatar: juan-rodriguez.png
+---
+bio: Soy Ingeniero Aeronáutico y trabajo como Defensor del Desarrollador (Developer Advocate) en Read the Docs, una empresa que ofrece generación y alojamiento de documentación. En mi tiempo libre imparto clases, escucho música, berreo en LinkedIn, y persigo sueños imposibles.
+
+//
+
+I'm an Aerospace Engineer and I work as Developer Advocate at Read the Docs, a company that offers hosting for documentation. In my free time I teach, listen to music, yell on LinkedIn, and follow impossible dreams.
+---
+company: Read the Docs
+---
+job: Developer Advocate
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/juanluiscanor/
+#### social ####
+social_network: github
+----
+link: https://github.com/astrojuanlu/
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/juanluisback/
+
+---
+type: tutorial
+---
+level: Principiante
+---
+language: es
+---
+title: Documenta tu proyecto científico con Markdown, Sphinx, y Read the Docs
+---
+description: Sincerémonos: nos gusta que los proyectos que usamos estén bien documentados, pero casi nunca tenemos tiempo para documentar los nuestros. ¿Cómo podemos hacer que escribir documentación para nuestro software sea lo más placentero posible?
+
+En este taller veremos cómo documentar nuestros proyectos usando Sphinx, la herramienta utilizada para la propia documentación de Python y muchos otros proyectos más. Veremos cómo crear un proyecto desde cero, cómo escribir documentación narrativa, y también cómo generar de manera automática la referencia de la API de nuestro código. Para ello utilizaremos MyST, un nuevo dialecto de CommonMark compatible con Sphinx y que nos trae toda la potencia de reStructuredText, con la familiaridad de Markdown. Finalmente, publicaremos nuestro proyecto en Read the Docs, un servicio online de alojamiento para documentación.
+---
+publish: false
+---
+topic: Documentação
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

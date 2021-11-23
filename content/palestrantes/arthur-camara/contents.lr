@@ -1,0 +1,46 @@
+name: Arthur Câmara
+---
+pronouns: ele/dele
+---
+avatar: arthur-camara.png
+---
+bio: Arthur Câmara é pesquisador PhD na Delft University of Technology, na Holanda, nas áreas de Recuperação da Informação e Processamento de Linguagem Natural, especialmente em como podemos unir técnicas clássicas de busca com técnicas modernas de Deep Learning. 
+
+Ele também tem bacharelado e mestrado em Ciência da Computação pela UFMG e anos de experiência como pesquisador e Cientista de Dados, com passagens pela Bloomberg (Londres), DTI (Belo Horizonte) e Mediar (San Francisco). 
+---
+company: Delft University of Technology
+---
+job: PhD Researcher
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/abcamara/
+#### social ####
+social_network: github
+----
+link: http://github.com/ArthurCamara
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/ArthurCamara
+
+---
+type: talk
+---
+level: Intermediário
+---
+language: pt
+---
+title: Transformers Search: How BERT and friends are changing search
+---
+description: Modelos de Deep Learning usando transformers mudaram completamente como os mecanismos Recuperação da Informação se comportam nos últimos anos. 
+Com seus poderosos mecanismos de self-attention e outras técnicas, como transfer learning, finalmente chegamos no ponto onde, para Processamento de Linguagem Natural, e especialmente recuperação da informação, deep learning é significativamente melhor do que modelos tradicionais.
+Nessa palestra, vamos discutir um pouco o que são esses modelos, como BERT e GPT-3, como funcionam, por que eles são tão melhores que modelos tradicionais, como usá-los em poucas linhas de código e para onde vamos no futuro.
+---
+publish: false
+---
+topic: Aprendizado Profundo
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

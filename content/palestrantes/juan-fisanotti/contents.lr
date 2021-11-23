@@ -1,0 +1,39 @@
+name: Juan Fisanotti
+---
+pronouns: ele/el/he
+---
+avatar: juan-fisanotti.png
+---
+bio: Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.
+Doy clases en varias materias de Ingeniería en Sistemas (usando bastante Python para ello también), me entusiasma el software libre, y me gustan mucho las espadas y los aviones.
+---
+company: Satellogic
+---
+job: Software engineer
+---
+social: #### social ####
+social_network: github
+----
+link: https://github.com/fisadev
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/fisadev
+
+---
+type: talk
+---
+level: Principiante
+---
+language: es
+---
+title: Concurrencia y Paralelismo en Python
+---
+description: No siempre está claro qué diferencias, ventajas y problemas tienen las diferentes alternativas que Python nos ofrece para ejecutar múltiples cosas al mismo tiempo. La idea de la charla es hacer una intro a qué hace realmente cada una de ellas, y a partir de ello compararlas y explicar qué ventajas y problemas tienen. Charlar un poco sobre qué conviene en cada caso, qué tenemos que preocuparnos por manejar, etc. Y para que sirva por completo, mostrar un mínimo ejemplo implementado con las tres opciones.
+---
+publish: false
+---
+topic: Ciência de Computação
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

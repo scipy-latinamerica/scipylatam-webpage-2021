@@ -1,0 +1,59 @@
+name: Daniel Moré
+---
+pronouns: ele/él/he
+---
+avatar: daniel-more.png
+---
+bio: Colombian, 26, Software Engineer at Quansight Labs, currently working on Spyder IDE (the Scientific Python Development Environment) and some other Python packages supported by the Spyder team as a core developer
+---
+company: Quansight
+---
+job: Ingeniero de Software
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/dalthviz/
+#### social ####
+social_network: github
+----
+link: https://github.com/dalthviz
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/dalthviz
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: es
+---
+title: Contributing to Open Source: From not knowing Python to becoming a Spyder core developer
+---
+description: In this talk, I would like to share my experience being an open source developer, how I started my journey contributing to Spyder (a development environment for scientific Python), and how contributing to this project has now become my full-time job.
+
+For this, I would tell the story from how I came into contact with Spyder project's lead maintainer, started getting a handle on the repository structure and learned the how to contribute and solve bugs. I'll then describe how I began to interact with different contributors, discovering that open source is not just about coding, and how that has helped me help others not only to complete their own projects, but also learn programming, scientific computing and data analysis.
+
+Moreover, I'll share some of the lessons I've learned along the way about effective communication (especially in multicultural contexts), finding financial support and coping with the overall challenges of open but safe environment for discussion and collaboration. Also, I would like to provide an overview of some of the projects that the Spyder team is currently supporting (including QtPy, QtAwesome and Spyder itself) and invite the audience to check them out and get involved!  
+
+Through this talk, my goal is to help people see that they can not only be users of the tools that the scientific Python community offers, but also actively participate and help improve them or even share their own.
+
+As a side note, it is worth mentioning that, thanks to Quansight's support, since 2019 Spyder has had a team of up to five Colombian developers (including myself) working on the project. Furthermore, this not only supports the Spyder application itself, but also other projects used and maintained by the team, including:
+
+* Python LSP Server: https://github.com/python-lsp/python-lsp-server
+* PyWinpty: https://github.com/spyder-ide/pywinpty
+* QtAwesome: https://github.com/spyder-ide/qtawesome
+* QtConsole: https://github.com/jupyter/qtconsole
+* QtPy: https://github.com/spyder-ide/qtpy/
+
+and others (https://github.com/spyder-ide).
+
+---
+publish: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

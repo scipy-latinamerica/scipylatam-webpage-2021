@@ -1,0 +1,53 @@
+name: Eduardo Blancas
+---
+pronouns: he/him/his
+---
+avatar: eduardo-blancas.png
+---
+bio: Eduardo está interesado en construir herramientas que faciliten el desarrollo de productos de datos. Con ese fin desarrolló Ploomber, una biblioteca de código abierto para ciencia de datos que se presentó en JupyterCon 2020. Eduardo tiene una maestría en ciencia de datos por la Universidad de Columbia, donde realizó investigaciones en neurociencia computacional. Comenzó su carrera en ciencia de datos en 2015 en el Centro de ciencia de datos y políticas públicas de la Universidad de Chicago.
+---
+company: Ploomber
+---
+job: Co-fundador
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/edublancas/
+#### social ####
+social_network: github
+----
+link: https://github.com/edublancas
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/edublancas
+
+---
+type: tutorial
+---
+level: Intermediário
+---
+language: es
+---
+title: Desarrollo de pipelines de datos con Ploomber
+---
+description: Jupyter es una herramienta popular entre los científicos de datos debido a su flexibilidad, que permite a los usuarios intercalar código, texto e imágenes. Sin embargo, escribir notebooks que sigan las mejores prácticas de ingeniería de software es un desafío: la reproducibilidad, el control de versiones, la modularización y la colaboración son difíciles de seguir cuando se utilizan notebooks, lo que aumenta considerablemente el tiempo de desarrollo.
+
+En este tutorial aprenderá los conceptos básicos de Ploomber, una biblioteca de código abierto que permite a los usuarios adherirse a las mejores prácticas de software cuando se usa Jupyter.
+
+Al final de la sesión, se tendrá un conocimiento básico de Ploomber, lo que le permitirá crear pipelines de datos que son modulares y más fáciles de desarrollar. Ploomber se utiliza en producción en varias empresas, las cuales han reportado una reducción del 40% en el tiempo de desarrollo. 
+
+
+Post en el blog de Jupyter: https://blog.jupyter.org/ploomber-maintainable-and-collaborative-pipelines-in-jupyter-acb3ad2101a7
+Página web: https://ploomber.io/
+GitHub: https://github.com/ploomber/ploomber
+Presentación en EuroPython 2021: https://youtu.be/O8tqiCkIWPs
+
+---
+publish: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

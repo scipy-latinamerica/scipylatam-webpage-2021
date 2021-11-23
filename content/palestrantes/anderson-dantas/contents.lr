@@ -1,0 +1,38 @@
+name: Anderson Dantas
+---
+pronouns: Ele/dele
+---
+avatar: anderson-dantas.png
+---
+bio: Desenvolvedor Python na Zyte (antiga Scrapinghub). Mestre em Computação Inteligente pela UFPE. Ama Python, é fã de boardgames e videogames e ainda arranha um violão
+---
+company: Zyte (antiga Scrapinghub)
+---
+job: Python developer
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/andersonberg/
+#### social ####
+social_network: github
+----
+link: https://github.com/andersonberg
+
+---
+type: talk
+---
+level: Intermediário
+---
+language: pt
+---
+title: Monitorando Spiders com Pandas
+---
+description: Dependendo do volume de dados, monitorar spiders pode se tornar uma tarefa bastante complicada. Às vezes é preciso garantir que os dados estão sendo extraídos corretamente ou até que não há inconsistências. Esse tipo de análise pode ser facilitada com o uso do Pandas que tem a possibilidade de exibir de forma mais simples um grande volume de dados.
+---
+publish: false
+---
+topic: Engenharia de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

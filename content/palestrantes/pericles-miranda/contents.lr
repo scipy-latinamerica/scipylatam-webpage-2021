@@ -1,0 +1,38 @@
+name: Péricles Miranda
+---
+pronouns: Ele
+---
+avatar: pericles-miranda.png
+---
+bio: Péricles Miranda é doutor em Ciência da Computação pela Universidade Federal de Pernambuco. Atualmente é Professor Adjunto da Universidade Federal Rural de Pernambuco (UFRPE) e cientista chefe do AiBox Lab. Tem ampla experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial, atuando principalmente em temas relacionados a Aprendizado de Máquina Automatizado (AutoML), Aprendizado Supervisionado e Algoritmos Meta-heurísticos e Hiperheurísticos.
+---
+company: AiBox Lab
+---
+job: Pesquisador
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/pbcm/
+#### social ####
+social_network: github
+----
+link: https://github.com/periclesmiranda/
+
+---
+type: talk
+---
+level: Avançado
+---
+language: pt
+---
+title: Otimização da Arquitetura de Redes Neurais Convolucionais usando Python: Uma Abordagem Evolucionária
+---
+description: Nos últimos anos, a adoção de Redes Neurais Convolucionais Profundas (RNCs) tem se destacado na resolução de tarefas de visão computacional, como a classificação de imagens. Há uma variedade de arquiteturas, com tamanhos e complexidades variados e um número crescente de parâmetros treináveis. Encontrar a configuração e arquitetura ideais tornou-se uma tarefa difícil, pelo fato do problema ser totalmente dependente do conjunto de dados associado. Nesta palestra, será apresentada uma solução que automatiza o processo de seleção/otimização da RNC, maximizando as chances de sucesso da rede em tarefas de classificação de imagens. Para a criação da solução em questão, usamos os frameworks DEAP e PonyGE, ambos implementados em Python. A presente solução foi avaliada em diferentes tarefas de classificação de imagens, sendo seus resultados publicados em evento internacional.
+---
+publish: false
+---
+topic: Aprendizado Profundo
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

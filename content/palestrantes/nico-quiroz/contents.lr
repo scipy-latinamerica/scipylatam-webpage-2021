@@ -1,0 +1,36 @@
+name: Nico Quiroz
+---
+pronouns:  he/him/his
+---
+avatar: nico-quiroz.png
+---
+bio: Nicolás Quiroz es ingeniero biomédico, docente universitario y actualmente esta realizando su doctorado en Ciencias de Salud. Trabaja como investigador en HIBA es una persona amable y es fanático de las To-Do List
+---
+company: Instituto de Medicina Traslacional e Ingeniería Biomédica (IMTIB) 
+---
+job:  Investigador
+---
+social: 
+---
+type: tutorial
+---
+level: Principiante
+---
+language: es
+---
+title: Deduzco luego programo, primeros pasos en la Ciencia de Datos
+---
+description: En este taller iniciamos un análisis exploratorio sobre un caso real datos extraidos de un repositorio de un grupo de investigación. 
+Usaremos las librerías para el manejo de grandes volumenes de información Pandas y graficos interactivos con plotly, 
+nos enfrentaremos a diferentes desafíos y  lo resolveremos en grupo (dando prioridad al método deductivo para luego pasar a la programación). 
+La práctica de este taller la haremos en el VPS de la Universidad Nacional de Salta (CONICET-ARGENTINA). Cada participante tendra acceso a un espacio 
+de trabajo alojado en la nube con todos los recursos básicos y necesarios para llevar adelante la actividad. 
+Lo único que se necesita es conexión a internet y ganas de aprender.
+
+---
+publish: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---
