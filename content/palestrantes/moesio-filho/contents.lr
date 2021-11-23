@@ -1,0 +1,38 @@
+name: Moésio Filho
+---
+pronouns: ele/dele
+---
+avatar: moesio-filho.png
+---
+bio: Moésio é um estudante de Ciência da Computação na Universidade Federal Rural de Pernambuco (UFRPE), e técnico em Programação de Jogos Digitais pela Escola Técnica Estadual Cícero Dias - NAVE Recife. Alguns dos seus interesses de pesquisa são  Aprendizado de Máquina, Computação Neural e Evolucionária, e Astrofísica Computacional.
+---
+company: 
+---
+job: 
+---
+social: #### social ####
+social_network: linkedin
+----
+link: www.linkedin.com/in/moesiof
+#### social ####
+social_network: github
+----
+link: https://github.com/moesio-f
+
+---
+type: talk
+---
+level: Intermediário
+---
+language: pt
+---
+title: Métodos de Aprendizagem por Reforço para resolver problemas de Otimização Global
+---
+description: O intuito seria demonstrar como foi feita a implementação dos códigos utilizados no artigo "Zeroth Order Policy Search Methods for Global Optimization Problems: An Experimental Study", aceito para publicação no ENIAC 2021. A implementação foi feita em Python 3.8 com o uso do TensorFlow 2.5.0, TF-Agent 0.8.0, entre outras. Inicialmente, seriam introduzidos os conceitos básicos de Aprendizagem por Reforço (RL), com o uso de exemplos de alguns problemas clássicos de RL, depois uma breve apresentação do problema de se aprender algoritmos de otimização por meio de RL, e, por fim, como as diferentes bibliotecas foram utilizadas para executar os experimentos.
+---
+publish: false
+---
+topic: Aprendizado de Máquinas
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

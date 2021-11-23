@@ -1,0 +1,38 @@
+name: David González
+---
+pronouns: ele/el/he
+---
+avatar: david-gonzalez.png
+---
+bio: Doctor en Ingeniería Mecánica por la UFSC (Florianópolis, Brasíl) especializado en el área de fabricación. Actualmente profesor en ITESO (Guadalajara, México). Escribo código en Python para resolver problemas, organizar datos y para apoyar proyectos de investigación. Músico en mis tiempos libres. 
+---
+company: Universidad ITESO
+---
+job: Profesor
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://mx.linkedin.com/in/ochoadavid
+#### social ####
+social_network: github
+----
+link: https://github.com/ochoadavid/
+
+---
+type: talk
+---
+level: Intermediário
+---
+language: es
+---
+title: Uso de python, numpy y sympy en la docencia del Método de Elementos Finitos
+---
+description: Por algunos años he estado explorado el uso de Python (específicamente las librerías numpy y sympy) para la docencia del método de los elementos finitos (MEF) con alumnos de graduación. En esta charla comparto algunos de los desarrollos, logros y dificultades de esta experiencia.
+---
+publish: false
+---
+topic: Elementos Finitos
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

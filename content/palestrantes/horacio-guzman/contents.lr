@@ -1,0 +1,42 @@
+name: Horacio Guzman
+---
+pronouns: he/him/his
+---
+avatar: horacio-guzman.png
+---
+bio: Theoretical bio-physicist at the JSI and MPI for Polymer Research, PhD in physics at the UAM. He works on the theoretical development of analytical and computational methods for exploring molecular phenomena of biomaterials, in particular the dis/assembly processes occurring in viruses with RNA. He has presented his published work in several scientific conferences, mainly devoted to Soft Matter simulations and also scientific computing workshops and tutorials tackling HPC, C/C++ and Python.
+---
+company: Jozef Stefan Institute
+---
+job: Group leader
+---
+social: #### social ####
+social_network: linkedin
+----
+link: tinyurl.com/goCompModeling
+#### social ####
+social_network: github
+----
+link: https://github.com/govarguz
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/whoratz
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: en
+---
+title: pyteRNA: 3D RNA structural analysis
+---
+description: 3D structural reconstruction of a virus genome based on RNA secondary strucuture
+---
+publish: false
+---
+topic: Física Computacional
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

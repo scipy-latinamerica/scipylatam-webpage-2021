@@ -1,0 +1,41 @@
+name: Laura Funderburk
+---
+pronouns: She/her/hers/ella/\
+---
+avatar: laura-funderburk.png
+---
+bio: Laura trabaja como científico de datos en Cybera. Ella tiene experiencia facilitando talleres en Python, Bash and GitHub para audiencias de varias edades. Laura completó sus estudios en Matemáticas en Simon Fraser University (SFU). En 2019, su universidad reconoció sus contribuciones y su habilidad para afrontar situaciones difíciles y le otorgó una medalla de oro en honor a Terry Fox. 
+
+---
+company: Cybera Inc
+---
+job: Data Scientist
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/laurafunderburk/
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/LGFunderburk
+
+---
+type: tutorial
+---
+level: Intermediário
+---
+language: es
+---
+title: Ética en Inteligencia Artificial con FairLearn
+---
+description: En este tutorial vamos a aprender sobre las diferentes "trampas" en que podemos caer cuando implementamos modelos de machine learning en problemas que involucran tomar una decisión que impacta a un grupo de personas. 
+
+En este tutorial, vamos a discutir esas trampas, cómo evitarlas, y tendremos oportunidad de aprender sobre FairLearn, una librería de Python enfocada en mitigar prejucios en problemas que involucran el uso de datos. 
+---
+publish: false
+---
+topic: Agentes de Inteligência Artificial
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

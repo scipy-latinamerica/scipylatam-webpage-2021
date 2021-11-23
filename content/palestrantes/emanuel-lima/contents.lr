@@ -1,0 +1,38 @@
+name: Emanuel Lima
+---
+pronouns: ele/dele
+---
+avatar: emanuel-lima.png
+---
+bio: Engenheiro de software em HPC na Block Science, responsável pela engenharia de performance da biblioteca open source cadCAD.
+---
+company: Block Science
+---
+job: Engenheiro de Software em HPC
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/emanuellima1/
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/emanuel_lima1
+
+---
+type: talk
+---
+level: Avançado
+---
+language: pt
+---
+title: Performance de Softwares Científicos em Python: Um Estudo de Caso com cadCAD
+---
+description: Na palestra, falarei sobre questões de desempenho da biblioteca open-source cadCAD, escrita em Python, que é usada na simulação de sistemas complexos, como certos sistemas criptoeconômicos. Falarei sobre alguns dos gargalos do software de um ponto de vista mais baixo nível e quais características do CPython levam à essas desvantagens. Falarei também porque decidimos reescrever a biblioteca em Julia e como esta linguagem se compara com o Python em decisões de baixo nível que impactam performance.
+---
+publish: false
+---
+topic: Matemática Computacional
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

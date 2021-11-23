@@ -1,0 +1,43 @@
+name: Amerson Chagas
+---
+pronouns: Ele
+---
+avatar: amerson-chagas.png
+---
+bio: Possui graduação em Sistemas Para Internet , especialização em Tecnologias Para Aplicações Web e Mestrando em Engenharia de Software com pesquisa em IA . Analista de Tecnologia de Informação da Universidade do Estado do Amapá e Docente da Faculdade de Tecnologia do Amapá. Tem experiência na área de Ciência da Computação, com ênfase em Desenvolvimento de Sistemas.
+---
+company: Universidade do Estado do Amapá - UEAP
+---
+job: Professor e Desenvolvedor 
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/amersonchagas/
+#### social ####
+social_network: github
+----
+link: https://github.com/amersonchagas
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: pt
+---
+title: HERA  -> Sistema de Detecção de violência contra a mulher em vídeos de monitoramento.
+---
+description: Há um crescente interesse em sistemas de detecção de violência de forma automática por meio de câmeras de vídeo monitoramento.
+ainda mais interesse quando essa violência é contra a mulher.
+Os números por si só falam o quão é preocupante os índices de violência contra a mulher.
+Com base nesse problema, apresentamos uma pesquisa recente do nosso grupo de pesquisa cuja a ideia é através da construção de um dataset e com auxilio de redes convulsionais do estado da arte,  construir um modelo treinado
+que faça a detecção de violência contra a mulher em imagens de câmeras de vídeo monitoramento.
+A solução proposta alcançou resultados interessantes e o detalhamento da pesquisa será apresentado nesta palestra.
+---
+publish: false
+---
+topic: Aprendizado Profundo
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

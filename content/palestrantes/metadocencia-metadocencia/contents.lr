@@ -1,0 +1,43 @@
+name: Metadocencia Metadocencia
+---
+pronouns: El/He, Ella/She
+---
+avatar: metadocencia-metadocencia.png
+---
+bio: MetaDocencia nutre una comunidad de enseñanza interdisciplinaria de habla hispana mediante talleres de no más de 3 horas sobre métodos de aprendizaje activos y concretos. El objetivo de los talleres es mejorar la enseñanza de estadística y otras disciplinas. Todos los materiales de MetaDocencia son gratuitos y tienen licencia CC BY-SA para su reutilización sin fines comerciales. 
+---
+company: 
+---
+job: 
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/company/metadocencia/mycompany/
+#### social ####
+social_network: github
+----
+link: https://github.com/MetaDocencia
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/metadocencia
+
+---
+type: talk
+---
+level: Principiante
+---
+language: es
+---
+title: Buenas prácticas para enseñar programación online
+---
+description: En esta charla te propondremos técnicas y buenas prácticas basadas en evidencia para ayudarte a diseñar y conducir tus cursos de programación. Charlaremos acerca de estrategias para virtualizar tu clase con pocos recursos, mantener a tu audiencia motivada y lograr que tus clases y reuniones virtuales sean más accesibles.
+
+---
+publish: false
+---
+topic: Educação
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

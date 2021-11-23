@@ -1,0 +1,42 @@
+name: Stephannie Gacha
+---
+pronouns: She/her/hers
+---
+avatar: stephannie-gacha.png
+---
+bio: Open source maintainer and advocate, with multiple contributions to the Python Data ecosystem.
+---
+company: Quansight
+---
+job: Software developer
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/stephannie-jimenez-44b378164/
+#### social ####
+social_network: github
+----
+link: https://github.com/steff456
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/StephannieJime2
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: es
+---
+title: Data APIs: Estandarización de arreglos n-dimensionales y dataframes
+---
+description: Introducción al consorcio, motivación, objetivos y logros de estandarización del primer año.
+---
+publish: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

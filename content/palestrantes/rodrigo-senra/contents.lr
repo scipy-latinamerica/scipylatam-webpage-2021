@@ -1,0 +1,42 @@
+name: Rodrigo Senra
+---
+pronouns: Ele/dele He/him/his
+---
+avatar: rodrigo-senra.png
+---
+bio: Fã de Python desde 1997. Organizador da primeira PythonBrasil 2005. Tradutor do tutorial do GvR para pt-br em 2001. Membro fundador da APyBr em 2007.
+---
+company: Work &Co
+---
+job: Group Technology Director
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/rodsenra/
+#### social ####
+social_network: github
+----
+link: https://github.com/rodsenra
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/rodsenra
+
+---
+type: talk
+---
+level: Principiante
+---
+language: pt
+---
+title: Monitorando Suor sem suar com Python
+---
+description: Nesta palestra pretendemos abordar à adoção de Python (e seu arsenal de computação científica) que permitiu o projeto e implementação da plataforma digital Gx, que alavanca os adesivos de captura de suor e sódio usados no motiramento de atletas de alto desempenho.
+---
+publish: false
+---
+topic: Estudo de caso de Python no monitoramento de suor em atividades esportivas.
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

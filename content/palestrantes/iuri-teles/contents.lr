@@ -1,0 +1,38 @@
+name: Iúri Teles
+---
+pronouns: He/him/his/ele/dele
+---
+avatar: iuri-teles.png
+---
+bio: Sou CIO e CO-Founder da Ayo uma solução de logística e transporte intermunicipal com sede no estado de Sergipe. Auxílio como líder técnico a Brainy Resolution e a EMPREL (empresa da cidade do Recife). Recentemente ajudei no desenvolvimento de soluções relacionadas a saúde, tais como o Atende em Casa e Atende APS utilizados na prefeitura da cidade e no desenvolvimento da conexão com os sistema de vacinação do governo. Acabei de finalizar o Mestrado em IA pelo CIN da UFPE.
+---
+company: EMPREL
+---
+job: Analista de Sistemas
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/iuribtt/
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/iuribtt
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: pt
+---
+title: Como utilizei Python para produzir previsão de ocorrências de casos de doenças infectocontagiosas
+---
+description: Proponho dialogar sobre como fiz o meu projeto de Mestrado, mostra dados os notebook, como obtive informação, coletei, desafios e as vantagens.
+---
+publish: false
+---
+topic: Aprendizado de Máquinas
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---

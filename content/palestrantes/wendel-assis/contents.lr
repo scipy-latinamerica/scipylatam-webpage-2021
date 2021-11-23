@@ -1,0 +1,43 @@
+name: Wendel Assis
+---
+pronouns: Ele/el/he
+---
+avatar: wendel-assis.png
+---
+bio: Experiência, desde 2010, na área de Tecnologia da Informação. Graduação em Redes de Computadores, Sistemas de informação, Mestrado em Sistemas de Informação e Gestão do Conhecimento. Atualmente cursando Pós-Graduação em Estatística Aplicada.
+
+Atuação como cientista de dados e realização de consultoria como especialista nas áreas de Ciência de Dados, Inteligência Artificial, Business Intelligence, Redes de Computadores, Sistemas de Informação, ITIL e vivência como professor.
+
+---
+company: Lojas Renner S.A.
+---
+job: Cientista de dados
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/wendel-vilaça-de-assis-311a7611a
+#### social ####
+social_network: github
+----
+link: https://github.com/wendelvilaca
+
+---
+type: talk
+---
+level: Todas acima
+---
+language: pt
+---
+title: Chat bot Sumé - Web Scraping em dados governamentais para consulta de gastos públicos dos vereadores da Câmara Municipal de Belo Horizonte
+---
+description: Esta apresentação é baseada na minha dissertação de mestrado. Nesse trabalho utilizei a técnica de Web Scraping em Python junto com algumas de suas bibliotecas para criar um robô. Este por sua vez extraí dados desestruturados do portal de transparência da câmara municipal de Belo Horizonte e transforma os mesmos em dados abertos estruturados, atendendo as premissas de transparência, segundo a Lei de Acesso a Informação.
+
+Esse trabalho buscou a abertura da discussão de transparência governamental referente aos gastos públicos e a importância dos dados abertos para democracia. Também se teve atenção no desenvolvimento de uma aplicação para sociedade que pudesse ser pragmática e auxiliar a população no exercício do controle social a respeito dos gastos de seus representantes.
+---
+publish: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-11 08:00:00 -0300
+---
