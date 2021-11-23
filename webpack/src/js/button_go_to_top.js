@@ -6,6 +6,8 @@ import $ from 'jquery';
 
 var myButton = document.getElementById("myBtn");
 
+if ($("#myBtn").length){
+
 window.onscroll = function () {
     scrollFunctionBTT(); // back to top button
 };
@@ -26,3 +28,5 @@ function topFunction() {
 }
 
 $("#myBtn").click(topFunction);
+
+}
