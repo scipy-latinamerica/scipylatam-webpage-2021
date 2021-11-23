@@ -26,7 +26,7 @@ link: https://twitter.com/StephannieJime2
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: es
 ---
@@ -34,9 +34,9 @@ title: Data APIs: Estandarización de arreglos n-dimensionales y dataframes
 ---
 description: Introducción al consorcio, motivación, objetivos y logros de estandarización del primer año.
 ---
-publish: false
+published: false
 ---
 topic: Ciência de Dados
 ---
-presentation_time: 2021-12-11 08:00:00 -0300
+presentation_time: 2021-12-12 08:00:00 -0300
 ---

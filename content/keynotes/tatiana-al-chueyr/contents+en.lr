@@ -1,16 +1,14 @@
 _template: keynote.html
 ---
-adicionado_em: 2021-10-15 10:30:00 -0300
----
 avatar: tatiana-al-chueyr.png
 ---
 avatar_hover: tatiana-al-chueyr-hover.png
 ---
 bio: Tatiana uses open source software and machine learning to improve the experience of millions of BBC users. Graduated in Computer Engineering from Unicamp, she has already worked on the development of medical imaging applications for the Brazilian Ministry of Science and Technology. She worked at Globo.com, developing applications for the G1 news portal and the semantic platform. She had experience developing educational applications for EF (Education First). She has worked at the BBC for nearly four years, developing recommendation platforms and systems.
 ---
-cargo: Principal Data Engineer
+job: Principal Data Engineer
 ---
-empresa: BBC London
+company: BBC London
 ---
 name: Tatiana Al Chueyr
 ---
@@ -28,3 +26,17 @@ link: https://twitter.com/tati_alchueyr
 social_network: linkedin
 ----
 link: https://uk.linkedin.com/in/tatialchueyr
+---
+adicionado_em: 2021-10-15 10:30:00 -0300
+---
+published: yes
+---
+language: pt
+---
+presentation_time: 2021-12-11 09:00:00 -0300
+---
+pronouns: Ela/Dela
+---
+type: keynote
+---
+level: Todos

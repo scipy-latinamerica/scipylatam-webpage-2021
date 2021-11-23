@@ -4,12 +4,22 @@ avatar_hover: gigi-lucena-hover.png
 ---
 bio: Gigi is a software developer at NASA - Jet Propulsion Laboratory. Previously, she worked as a software developer at Unit Software in Brazil, leading a team of 7 people for 4 years. She holds a bachelor's degree in computer science from CSUN and is currently a master's student in robotics at GATECH institute. At NASA, she worked on missions like Mars (2020). Mother of Davi, she also works as a volunteer in the area of education, through lectures on code and her experience at NASA in order to encourage children to improve their knowledge.
 ---
-cargo: Software Engineer
+job: Software Engineer
 ---
-empresa: NASA | Jet Propulsion Laboratory
+company: NASA | Jet Propulsion Laboratory
 ---
 name: Gigi Lucena
 ---
 adicionado_em: 2021-11-03 00:00:00 -0300
 ---
 published: yes
+---
+language: pt
+---
+presentation_time: 2021-12-11 09:00:00 -0300
+---
+pronouns: Ela/Dela
+---
+type: keynote
+---
+level: Todos

@@ -34,7 +34,7 @@ title: Monitorando Suor sem suar com Python
 ---
 description: Nesta palestra pretendemos abordar à adoção de Python (e seu arsenal de computação científica) que permitiu o projeto e implementação da plataforma digital Gx, que alavanca os adesivos de captura de suor e sódio usados no motiramento de atletas de alto desempenho.
 ---
-publish: false
+published: false
 ---
 topic: Estudo de caso de Python no monitoramento de suor em atividades esportivas.
 ---

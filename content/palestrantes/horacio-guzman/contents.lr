@@ -26,7 +26,7 @@ link: https://twitter.com/whoratz
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: en
 ---
@@ -34,9 +34,9 @@ title: pyteRNA: 3D RNA structural analysis
 ---
 description: 3D structural reconstruction of a virus genome based on RNA secondary strucuture
 ---
-publish: false
+published: false
 ---
 topic: Física Computacional
 ---
-presentation_time: 2021-12-11 08:00:00 -0300
+presentation_time: 2021-12-12 08:00:00 -0300
 ---

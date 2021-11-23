@@ -38,7 +38,7 @@ description: Modelos de Deep Learning usando transformers mudaram completamente 
 Com seus poderosos mecanismos de self-attention e outras técnicas, como transfer learning, finalmente chegamos no ponto onde, para Processamento de Linguagem Natural, e especialmente recuperação da informação, deep learning é significativamente melhor do que modelos tradicionais.
 Nessa palestra, vamos discutir um pouco o que são esses modelos, como BERT e GPT-3, como funcionam, por que eles são tão melhores que modelos tradicionais, como usá-los em poucas linhas de código e para onde vamos no futuro.
 ---
-publish: false
+published: false
 ---
 topic: Aprendizado Profundo
 ---

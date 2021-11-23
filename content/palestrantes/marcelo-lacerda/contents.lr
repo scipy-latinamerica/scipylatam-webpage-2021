@@ -30,7 +30,7 @@ title: Aprendizagem por Reforço fácil com RLlib
 ---
 description: Nesta palestra, você descobrirá como implementar e experimentar muito facilmente um agente dotado de algoritmos de Aprendizagem por Reforço com o módulo RLlib da biblioteca Ray. Como aplicação exemplo, você descobrirá como melhorar aquele seu robô aspirador de entrada baratinho que você comprou e que anda aleatoriamente pela sua casa, sem o menor planejamento de trajetória.
 ---
-publish: false
+published: false
 ---
 topic: Agentes de Inteligência Artificial
 ---

@@ -35,9 +35,9 @@ title: Análise de Séries Temporais em Python
 description: Temos diversas séries temporais disponíveis no mecado financeiro, preços de ações, cotações de mercadorias (commodities), taxas de juros, etc. Em Econometria Financeira se estuda o comportamento destes ativos para que possamos tomar melhores decisões.
 Contudo, como fazer a análise de séries temporais financeiras em Python? Quais pacotes temos a disposição? Como obter os dados para a análise? Como processar os dados para a análise? O objetivo deste tutorial é apresentar um conjunto de ferramentas em Python utilizadas em Econometria Financeira e algumas aplicações.
 ---
-publish: false
+published: false
 ---
 topic: Econometria Financeira
 ---
-presentation_time: 2021-12-11 08:00:00 -0300
+presentation_time: 2021-12-12 08:00:00 -0300
 ---

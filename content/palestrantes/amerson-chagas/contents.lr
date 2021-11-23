@@ -22,7 +22,7 @@ link: https://github.com/amersonchagas
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: pt
 ---
@@ -35,7 +35,7 @@ Com base nesse problema, apresentamos uma pesquisa recente do nosso grupo de pes
 que faça a detecção de violência contra a mulher em imagens de câmeras de vídeo monitoramento.
 A solução proposta alcançou resultados interessantes e o detalhamento da pesquisa será apresentado nesta palestra.
 ---
-publish: false
+published: false
 ---
 topic: Aprendizado Profundo
 ---

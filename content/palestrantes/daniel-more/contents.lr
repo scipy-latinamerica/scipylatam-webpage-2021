@@ -26,7 +26,7 @@ link: https://twitter.com/dalthviz
 ---
 type: talk
 ---
-level: Todas acima
+level: Todos
 ---
 language: es
 ---
@@ -51,7 +51,7 @@ As a side note, it is worth mentioning that, thanks to Quansight's support, sinc
 and others (https://github.com/spyder-ide).
 
 ---
-publish: false
+published: false
 ---
 topic: Ciência de Dados
 ---

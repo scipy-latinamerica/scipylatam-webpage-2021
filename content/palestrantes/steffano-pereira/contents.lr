@@ -30,7 +30,7 @@ title: Geração de datasets sintéticos baseado em medidas de complexidade
 ---
 description: A avaliação de algoritmos de aprendizado de máquina em uma tarefa específica geralmente é feita por meio de avaliação empírica em dados observacionais do mundo real. No entanto, às vezes não há dados anotados disponíveis. Conjuntos de dados sintéticos têm ganhado destaque como alternativa para avaliação eficiente de classificadores, uma vez que são acessíveis e altamente parametrizáveis para uma dada tarefa de aprendizagem. A caracterização de tal banco de dados pode ser feita por meio de descritores no objeto de aprendizagem, por exemplo, medidas de complexidade, que extraem características estatísticas e geométricas dos conjuntos de dados, para um problema de classificação de dados, a fim de estimar sua complexidade. Tais medidas de complexidade podem ser usadas para orientar a produção de conjuntos de dados sintéticos, portanto, reforçam uma ou mais características do conjunto de dados. Nesta palestra, iremos apresentar uma abordagem evolucionária para a geração de dados sintéticos baseada em complexidades fornecidas. A solução foi implementada usando o DEAP, framework Python, que fornece implementações para a construção de meta-heurísticas. Os resultados obtidos pela solução foram publicados em evento internacional, e serão detalhados nesta palestra.
 ---
-publish: false
+published: false
 ---
 topic: Aprendizado de Máquinas
 ---

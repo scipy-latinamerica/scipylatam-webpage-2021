@@ -7,10 +7,7 @@
             src="{{ palestrante.attachments.images.get(palestrante.avatar)|url }}"
             width=216 height=238 alt="{{ palestrante.name }}" />
         </a>
-        <h3 class="text-center">
-            {{ palestrante.name }}
-        </h3>
-        <p class="text-center">{{ palestrante.empresa }} - {{ palestrante.cargo }}</p>
+        <h3 class="text-center"> {{ palestrante.name }} </h3>
 
         <div class="modal fade" id="{{ palestrante._id }}" tabindex="-1" aria-labelledby="{{ palestrante.name }}" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-centered" style="max-width: 1000px; padding: 0.5rem;">
@@ -24,7 +21,7 @@
                         <div class="col-lg-6 keynote-grid">
                             <img class="img-fluid" src="{{ palestrante.attachments.images.get(palestrante.avatar)|url }}" width=350 height=350 alt="hahaha">
                             <p class="title title-name text-center">{{ palestrante.name }}</p>
-                            <p class="subtitle text-center">{{ palestrante.empresa }} - {{ palestrante.cargo }}</p>
+                            <p class="subtitle text-center">{{ palestrante.company }} - {{ palestrante.job }}</p>
                         </div>
                         <div class="col-lg-6">
                             <p class="title">Apresentação:</p>

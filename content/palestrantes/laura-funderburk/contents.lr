@@ -33,7 +33,7 @@ description: En este tutorial vamos a aprender sobre las diferentes "trampas" en
 
 En este tutorial, vamos a discutir esas trampas, cómo evitarlas, y tendremos oportunidad de aprender sobre FairLearn, una librería de Python enfocada en mitigar prejucios en problemas que involucran el uso de datos. 
 ---
-publish: false
+published: false
 ---
 topic: Agentes de Inteligência Artificial
 ---
