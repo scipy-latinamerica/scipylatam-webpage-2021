@@ -3,6 +3,22 @@
 {%- set palestrantes = site.get('/palestrantes', alt=this.alt).children -%}
 {%- set schedule = (palestrantes|list + keynotes|list)|str2datetime(attribute='presentation_time', new_field='presentation_datetime')|sort(attribute='presentation_time,name') -%}
 
+{%- from "macros/translation.html" import transbag -%}
+{%- set _about_menu = transbag('menu', this.alt, 'about') -%}
+
+{%- set _tr_schedule = transbag('schedule', this.alt, 'schedule') -%}
+{%- set _tr_back = transbag('schedule', this.alt, 'back') -%}
+{%- set _tr_talk = transbag('schedule', this.alt, 'talk') -%}
+{%- set _tr_tutorial = transbag('schedule', this.alt, 'tutorial') -%}
+
+{%- set _tr_time = transbag('schedule', this.alt, 'time') -%}
+{%- set _tr_type = transbag('schedule', this.alt, 'type') -%}
+{%- set _tr_presentation = transbag('schedule', this.alt, 'presentation') -%}
+{%- set _tr_speaker = transbag('schedule', this.alt, 'speaker') -%}
+{%- set _tr_audience = transbag('schedule', this.alt, 'audience') -%}
+{%- set _tr_language = transbag('schedule', this.alt, 'language') -%}
+{%- set _tr_track = transbag('schedule', this.alt, 'track') -%}
+
 
 <div class="schedule">
     <div class="container">
@@ -10,10 +26,10 @@
             <div class="col-lg-12">
 
                 <div style="display: inline-block;">
-                    <a href="{{ '/'|url(alt=this.alt) }}"><i class="bi bi-arrow-return-left"></i> Voltar</a>
+                    <a href="{{ '/'|url(alt=this.alt) }}"><i class="bi bi-arrow-return-left"></i> {{ _tr_back }}</a>
                 </div>
 
-                <h1 class="schedule-title text-center">Grade de Programação</h1>
+                <h1 class="schedule-title text-center">{{ _tr_schedule }}</h1>
 
                 <input class="form-control" id="myInput" type="text" placeholder="Filtre..."> <br>
 
@@ -34,14 +50,14 @@
                                 <table id="schedule-table" class="table table-hover">
                                   <thead>
                                     <tr>
-                                      <th scope="col">Hora</th>
-                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">Tipo</th>
-                                      <th scope="col" class="d-none d-md-table-cell">Apresentação</th>
-                                      <th scope="col" class="d-table-cell d-xs-none d-sm-none d-md-none">Apresentação2</th>
-                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">Palestrante</th>
-                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">Nível</th>
-                                      <th scope="col">Idioma</th>
-                                      <th scope="col">Trilha</th>
+                                      <th scope="col">{{ _tr_time }}</th>
+                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_type }}</th>
+                                      <th scope="col" class="d-none d-md-table-cell">{{ _tr_presentation }}</th>
+                                      <th scope="col" class="d-table-cell d-xs-none d-sm-none d-md-none">{{ _tr_presentation }}</th>
+                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_speaker }}</th>
+                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_audience }}</th>
+                                      <th scope="col">{{ _tr_language }}</th>
+                                      <th scope="col">{{ _tr_track }}</th>
                                     </tr>
                                   </thead>
                                   <tbody>
@@ -50,9 +66,12 @@
                                   {% if palestrante.type == 'keynote' %}
                                     <tr class="table-dark">
                                       <td style="min-width: 100px">
-                                        {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration, alt=this.alt) }}
+                                        {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration) }}
                                       </td>
                                       <td colspan="3" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
+                                        KEYNOTE - {{ palestrante.name|upper }}
+                                      </td>
+                                      <td class="d-table-cell d-xs-none d-sm-none d-md-none">
                                         KEYNOTE - {{ palestrante.name|upper }}
                                       </td>
                                       <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ palestrante.level }}</td>
@@ -71,16 +90,16 @@
                                     <tr>
                                       <td style="min-width: 100px">
                                         <span class="schedule-hour">
-                                            {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration, alt=this.alt) }}
+                                            {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration) }}
                                         </span>
                                       </td>
                                       <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
-                                        {% if palestrante.type == 'talk' %}Palestra
-                                        {% elif palestrante.type == 'tutorial' %}Tutorial
+                                        {% if palestrante.type == 'talk' %}{{ _tr_talk }}
+                                        {% elif palestrante.type == 'tutorial' %}{{ _tr_tutorial }}
                                         {% endif %}
                                       </td>
                                       <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ palestrante.title|title }}</td>
-                                      <td class="d-table-cell d-xs-none d-sm-none d-md-none">2{{ palestrante.title|title }} - {{ palestrante.name }}</td>
+                                      <td class="d-table-cell d-xs-none d-sm-none d-md-none">{{ palestrante.title|title }} - <span class="schedule-name">{{ palestrante.name }}</span></td>
                                       <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
                                         <span class="schedule-name">{{ palestrante.name }}</span>
                                       </td>
