@@ -50,7 +50,7 @@
                                   {% if palestrante.type == 'keynote' %}
                                     <tr class="table-dark">
                                       <td style="min-width: 100px">
-                                        00:00 às 00:00
+                                        {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration, alt=this.alt) }}
                                       </td>
                                       <td colspan="3" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
                                         KEYNOTE - {{ palestrante.name|upper }}
@@ -69,8 +69,10 @@
                                     </tr>
                                     {% else %}
                                     <tr>
-                                            <td style="min-width: 100px">
-                                        <span class="schedule-hour">00:00 às 00:00</span>
+                                      <td style="min-width: 100px">
+                                        <span class="schedule-hour">
+                                            {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration, alt=this.alt) }}
+                                        </span>
                                       </td>
                                       <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
                                         {% if palestrante.type == 'talk' %}Palestra
