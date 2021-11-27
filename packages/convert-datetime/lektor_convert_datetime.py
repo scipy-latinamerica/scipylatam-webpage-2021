@@ -15,19 +15,12 @@ class ConvertDatetimePlugin(Plugin):
         self.env.jinja_env.filters['schedule_datetime'] = format_schedule_datetime
 
 
-def format_schedule_datetime(value, duration=0, alt='pt'):
+def format_schedule_datetime(value, duration=0):
     start = parser.parse(value)
     end = start + timedelta(minutes=int(duration))
     start_str = start.strftime(FORMAT_SCHEDULE)
     end_str = end.strftime(FORMAT_SCHEDULE)
-    if alt == 'pt':
-        return f"{start_str} às {end_str}"
-    elif alt == 'en':
-        return f"{start_str} às {end_str}"
-    elif alt == 'es':
-        return f"{start_str} às {end_str}"
-    else:
-        raise Exception('Parsing problems')
+    return f"{start_str} - {end_str}"
 
 
 def str2datetime(iterable, attribute, new_field):
