@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from lektor.pluginsystem import Plugin
-
+from datetime import timedelta
 from dateutil import parser
+
+FORMAT_SCHEDULE = "%H:%M"
 
 
 class ConvertDatetimePlugin(Plugin):
@@ -10,6 +12,22 @@ class ConvertDatetimePlugin(Plugin):
 
     def on_setup_env(self, **extra):
         self.env.jinja_env.filters['str2datetime'] = str2datetime
+        self.env.jinja_env.filters['schedule_datetime'] = format_schedule_datetime
+
+
+def format_schedule_datetime(value, duration=0, alt='pt'):
+    start = parser.parse(value)
+    end = start + timedelta(minutes=int(duration))
+    start_str = start.strftime(FORMAT_SCHEDULE)
+    end_str = end.strftime(FORMAT_SCHEDULE)
+    if alt == 'pt':
+        return f"{start_str} às {end_str}"
+    elif alt == 'en':
+        return f"{start_str} às {end_str}"
+    elif alt == 'es':
+        return f"{start_str} às {end_str}"
+    else:
+        raise Exception('Parsing problems')
 
 
 def str2datetime(iterable, attribute, new_field):
