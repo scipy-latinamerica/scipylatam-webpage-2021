@@ -1,6 +1,6 @@
 {%- from "macros/translation.html" import transbag -%}
 {%- set _about_menu = transbag('menu', this.alt, 'about') -%}
-{%- set _subscription_menu = transbag('menu', this.alt, 'subscription') -%}
+{%- set _schedule_menu = transbag('menu', this.alt, 'schedule') -%}
 {%- set _contact_menu = transbag('menu', this.alt, 'contact') -%}
 
 
@@ -21,10 +21,10 @@
                     <a class="nav-link active" aria-current="page" href="#about">{{ _about_menu }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#subscriptions">{{ _subscription_menu }}</a>
+                    <a class="nav-link" href="#palestrantes">{{ _schedule_menu }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#footer">{{ _contact_menu }}</a>
+                    <a class="nav-link" href="#contact">{{ _contact_menu }}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ '/faq/'|url(alt=this.alt) }}"> F.A.Q. </a>
