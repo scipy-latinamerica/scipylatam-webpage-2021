@@ -9,7 +9,7 @@
             <div class="row">
                 {% for p in ps %}
                     {% if p %}
-                        {{ render_palestrante(p) }}
+                        {{ render_palestrante(p, this.alt) }}
                     {% endif %}
                 {% endfor %}
             </div>
