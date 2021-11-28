@@ -1,5 +1,6 @@
-{% macro render_keynote(keynote, size=6) %}
+{%- from "macros/modal.html" import render_modal -%}
 
+{% macro render_keynote(keynote, alt, size=6) %}
 <div class="col-lg-{{ size }} col-xl-{{ size }}">
     <div class="keynote">
         <div class="text-center">
@@ -21,39 +22,7 @@
             <p class="text-center">{{ keynote.company }} - {{ keynote.job }}</p>
         </div>
     </div>
-
-    <div class="modal fade" id="{{ keynote._id }}" tabindex="-1" aria-labelledby="{{ keynote.name }}" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" style="max-width: 1000px; padding: 0.5rem;">
-        <div class="modal-content">
-          <div class="modal-body modal-keynote">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <button type="button" class="btn-close btn-sm float-end" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="col-lg-6 keynote-grid">
-                        <img class="img-fluid" src="{{ keynote.attachments.images.get(keynote.avatar)|url }}" width=350 height=350 alt="hahaha">
-                        <p class="title title-name text-center">{{ keynote.name }}</p>
-                        <p class="subtitle text-center">{{ keynote.company }} - {{ keynote.job }}</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="title">Apresentação:</p>
-                        <p>{{ keynote.bio }}</p>
-                        <p class="title">Links:</p>
-                        {% if keynote.social %}
-                        <ul class="social-menu">
-                            {% for social in keynote.social.blocks %}
-                            <li> <a href="{{ social.link }}" target="_blank"><i class="bi bi-{{ social.social_network }}"></i></a> </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{ render_modal(palestrante=keynote, alt=alt) }}
 </div>
 
 {% endmacro %}

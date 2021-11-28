@@ -10,10 +10,10 @@
             {% for ks  in grouped(keynotes, 2) %}
                 {%- set key_1, key_2 = ks -%}
                 {% if key_1 and key_2 %}
-                    {{ render_keynote(key_1) }}
-                    {{ render_keynote(key_2) }}
+                    {{ render_keynote(key_1, alt=this.alt) }}
+                    {{ render_keynote(key_2, alt=this.alt) }}
                 {% else %}
-                    {{ render_keynote(key_1, size=12) }}
+                    {{ render_keynote(key_1, size=12, alt=this.alt) }}
                 {% endif %}
             {% endfor %}
         </div>
