@@ -1,0 +1,35 @@
+{%- from "macros/translation.html" import transbag -%}
+
+{% macro render_talk_schedule(talk, alt, hide_links) %}
+{%- set _tr_talk = transbag('schedule', alt, 'talk') -%}
+{%- set _tr_tutorial = transbag('schedule', alt, 'tutorial') -%}
+
+<tr data-schedule-time="{{ talk.presentation_time }}">
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
+    {% if talk.type == 'talk' %}{{ _tr_talk }}
+    {% elif talk.type == 'tutorial' %}{{ _tr_tutorial }}
+    {% endif %}
+  </td>
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ talk.level }}</td>
+
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ talk.title }}</td>
+  <td class="d-table-cell d-xs-none d-sm-none d-md-none">{{ talk.title }} - <a data-bs-toggle="modal" href="#{{ talk._id }}"><span class="schedule-name">{{ talk.name }}</span></a></td>
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+    <a data-bs-toggle="modal" href="#{{ talk._id }}"><span class="schedule-name">{{ talk.name }}</span></a>
+  </td>
+  <td>
+    {% if talk.language == 'pt' %}<span class="badge bg-secondary" alt="portuguese/português/portugués">PT</span><span class="badge bg-danger d-none" alt="Live">portuguese português portugués</span>
+    {% elif talk.language == 'es' %}<span class="badge bg-secondary" alt="spanish/espanhol/español">ES</span><span class="badge bg-danger d-none" alt="Live">spanish espanhol español</span>
+    {% elif talk.language == 'en' %}<span class="badge bg-secondary" alt="english/inglês/inglés">EN</span><span class="badge bg-danger d-none" alt="Live">english inglês inglés</span>
+    {% endif %}
+  </td>
+  {% if hide_links %}
+  <td>
+      {% if talk.type == 'talk' %}
+      <a href="{{ talk.youtube_channel }}" alt="{{ talk.discord_channel }}"><i class="bi bi-youtube" style="font-size: 2rem;color: #dc3545;"></i></a> {{ talk.track }}
+      {% endif %}
+      <a href="{{ talk.youtube_channel }}" alt="{{ talk.discord_channel }}"><i class="bi bi-discord" style="font-size: 2rem;color: #4458E5;"></i></a> {{ talk.track }}
+  </td>
+  {% endif %}
+</tr>
+{% endmacro %}

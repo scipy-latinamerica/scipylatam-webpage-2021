@@ -1,0 +1,25 @@
+{% macro render_keynote_schedule(keynote, hide_links) %}
+<tr class="rounded" style="color: #fff; background-color: #12A348;">
+
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> Keynote </td>
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ keynote.level }}</td>
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+    <a data-bs-toggle="modal" class="schedule-link" href="#{{ keynote._id }}">KEYNOTE - {{ keynote.name|upper }}</a>
+  </td>
+  <td class="d-table-cell d-xs-none d-sm-none d-md-none">
+    <a data-bs-toggle="modal" class="schedule-link" href="#{{ keynote._id }}">KEYNOTE - {{ keynote.name|upper }}</a>
+  </td>
+  <td>
+    {% if keynote.language == 'pt' %}<span class="badge bg-secondary" alt="Portuguese">PT</span>
+    {% elif keynote.language == 'es' %}<span class="badge bg-secondary" alt="Spanish">ES</span>
+    {% elif keynote.language == 'en' %}<span class="badge bg-secondary" alt="English">EN</span>
+    {% endif %}
+  </td>
+  {% if hide_links %}
+  <td>
+      <a href="{{ keynote.youtube_channel }}" alt="{{ keynote.discord_channel }}"><i class="bi bi-youtube" style="font-size: 2rem;color: #dc3545;"></i></a> {{ keynote.track }}
+      <a href="{{ keynote.youtube_channel }}" alt="{{ keynote.discord_channel }}"><i class="bi bi-discord" style="font-size: 2rem;color: #4458E5;"></i></a> {{ keynote.track }}
+  </td>
+  {% endif %}
+</tr>
+{% endmacro %}
