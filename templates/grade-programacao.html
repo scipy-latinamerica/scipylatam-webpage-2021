@@ -1,16 +1,23 @@
-{%- from "macros/keynote.html" import render_keynote -%}
+{%- from "macros/schedule-talk.html" import render_talk_schedule -%}
+{%- from "macros/schedule-keynote.html" import render_keynote_schedule -%}
+{%- from "macros/schedule-hour.html" import render_schedule_hour -%}
+{%- from "macros/schedule-other.html" import render_other_schedule -%}
+{%- from "macros/translation.html" import transbag -%}
+{%- from "macros/modal.html" import render_modal -%}
+
 {%- set keynotes = site.get('/keynotes', alt=this.alt).children -%}
 {%- set palestrantes = site.get('/palestrantes', alt=this.alt).children -%}
 {%- set schedule = (palestrantes|list + keynotes|list)|str2datetime(attribute='presentation_time', new_field='presentation_datetime')|sort(attribute='presentation_time,name') -%}
 
-{%- from "macros/translation.html" import transbag -%}
-{%- set _about_menu = transbag('menu', this.alt, 'about') -%}
+{%- set _conference_month = transbag('talks', this.alt, 'conference_month') -%}
 
 {%- set _tr_schedule = transbag('schedule', this.alt, 'schedule') -%}
 {%- set _tr_back = transbag('schedule', this.alt, 'back') -%}
-{%- set _tr_talk = transbag('schedule', this.alt, 'talk') -%}
-{%- set _tr_tutorial = transbag('schedule', this.alt, 'tutorial') -%}
 
+{%- set _tr_timezone = transbag('schedule', this.alt, 'timezone') -%}
+{%- set _tr_schedule_changes = transbag('schedule', this.alt, 'schedule_changes') -%}
+
+{%- set _tr_filter_text = transbag('schedule', this.alt, 'filter_text') -%}
 {%- set _tr_time = transbag('schedule', this.alt, 'time') -%}
 {%- set _tr_type = transbag('schedule', this.alt, 'type') -%}
 {%- set _tr_presentation = transbag('schedule', this.alt, 'presentation') -%}
@@ -25,22 +32,30 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <div style="display: inline-block;">
+
+                <div class="d-flex justify-content-center">
                     <a href="{{ '/'|url(alt=this.alt) }}"><i class="bi bi-arrow-return-left"></i> {{ _tr_back }}</a>
                 </div>
-
+                <br>
+                <br>
                 <h1 class="schedule-title text-center">{{ _tr_schedule }}</h1>
 
-                <input class="form-control" id="myInput" type="text" placeholder="Filtre..."> <br>
-
-                <ul class="nav nav-pills" id="myTab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-pill nav-pills-schedule active" id="tab-11" data-bs-toggle="tab" data-bs-target="#dez-11" type="button" role="tab" aria-controls="home" aria-selected="true">11 - Dez</button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-pill nav-pills-schedule" id="tab-12" data-bs-toggle="tab" data-bs-target="#dez-12" type="button" role="tab" aria-controls="profile" aria-selected="false">12 - Dez</button>
-                  </li>
-                </ul>
+                <div class="d-flex justify-content-between">
+                    <ul class="nav nav-pills" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill nav-pills-schedule active" id="tab-11" data-bs-toggle="tab" data-bs-target="#dez-11" type="button" role="tab" aria-controls="home" aria-selected="true">11 - {{ _conference_month }}</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill nav-pills-schedule" id="tab-12" data-bs-toggle="tab" data-bs-target="#dez-12" type="button" role="tab" aria-controls="profile" aria-selected="false">12 - {{ _conference_month }}</button>
+                      </li>
+                    </ul>
+                    <div class="text-end">
+                        <small>{{ _tr_schedule_changes }}</small> <br>
+                        <small>{{ _tr_timezone }}</small>
+                    </div>
+                </div>
+                <br>
+                <input class="form-control" id="myInput" type="text" placeholder="{{ _tr_filter_text }}"> <br>
                 <br>
                 <div class="tab-content" id="myTabContent">
                     {% for day, group in schedule|groupby('presentation_datetime.day') %}
@@ -50,73 +65,31 @@
                                 <table id="schedule-table" class="table table-hover">
                                   <thead>
                                     <tr>
-                                      <th scope="col">{{ _tr_time }}</th>
                                       <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_type }}</th>
+                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_audience }}</th>
                                       <th scope="col" class="d-none d-md-table-cell">{{ _tr_presentation }}</th>
                                       <th scope="col" class="d-table-cell d-xs-none d-sm-none d-md-none">{{ _tr_presentation }}</th>
                                       <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_speaker }}</th>
-                                      <th scope="col" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ _tr_audience }}</th>
                                       <th scope="col">{{ _tr_language }}</th>
+                                      {% if this.activate_schedule_links %}
                                       <th scope="col">{{ _tr_track }}</th>
+                                      {% endif %}
                                     </tr>
                                   </thead>
                                   <tbody>
-                                  {% for palestrante in group|sort(attribute='presentation_datetime') %}
-
-                                  {% if palestrante.type == 'keynote' %}
-                                    <tr class="table-dark">
-                                      <td style="min-width: 100px">
-                                        {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration) }}
-                                      </td>
-                                      <td colspan="3" class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
-                                        KEYNOTE - {{ palestrante.name|upper }}
-                                      </td>
-                                      <td class="d-table-cell d-xs-none d-sm-none d-md-none">
-                                        KEYNOTE - {{ palestrante.name|upper }}
-                                      </td>
-                                      <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ palestrante.level }}</td>
-                                      <td>
-                                        {% if palestrante.language == 'pt' %}<span class="badge bg-secondary" alt="Portuguese">PT</span>
-                                        {% elif palestrante.language == 'es' %}<span class="badge bg-secondary" alt="Spanish">ES</span>
-                                        {% elif palestrante.language == 'en' %}<span class="badge bg-secondary" alt="English">EN</span>
-                                        {% endif %}
-                                      </td>
-                                      <td>
-                                          <a href="{{ palestrante.youtube_channel }}" alt="{{ palestrante.discord_channel }}"><i class="bi bi-youtube" style="font-size: 2rem;color: #dc3545;"></i></a> {{ palestrante.track }}
-                                          <a href="{{ palestrante.youtube_channel }}" alt="{{ palestrante.discord_channel }}"><i class="bi bi-discord" style="font-size: 2rem;color: #4458E5;"></i></a> {{ palestrante.track }}
-                                      </td>
-                                    </tr>
-                                    {% else %}
-                                    <tr>
-                                      <td style="min-width: 100px">
-                                        <span class="schedule-hour">
-                                            {{ palestrante.presentation_time|schedule_datetime(duration=palestrante.duration) }}
-                                        </span>
-                                      </td>
-                                      <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
-                                        {% if palestrante.type == 'talk' %}{{ _tr_talk }}
-                                        {% elif palestrante.type == 'tutorial' %}{{ _tr_tutorial }}
-                                        {% endif %}
-                                      </td>
-                                      <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ palestrante.title|title }}</td>
-                                      <td class="d-table-cell d-xs-none d-sm-none d-md-none">{{ palestrante.title|title }} - <span class="schedule-name">{{ palestrante.name }}</span></td>
-                                      <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
-                                        <span class="schedule-name">{{ palestrante.name }}</span>
-                                      </td>
-                                      <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ palestrante.level }}</td>
-                                      <td>
-                                        {% if palestrante.language == 'pt' %}<span class="badge bg-secondary" alt="Portuguese">PT</span>
-                                        {% elif palestrante.language == 'es' %}<span class="badge bg-secondary" alt="Spanish">ES</span>
-                                        {% elif palestrante.language == 'en' %}<span class="badge bg-secondary" alt="English">EN</span>
-                                        {% endif %}
-                                      </td>
-                                      <td>
-                                          <a href="{{ palestrante.youtube_channel }}" alt="{{ palestrante.discord_channel }}"><i class="bi bi-youtube" style="font-size: 2rem;color: #dc3545;"></i></a> {{ palestrante.track }}
-                                          <a href="{{ palestrante.youtube_channel }}" alt="{{ palestrante.discord_channel }}"><i class="bi bi-discord" style="font-size: 2rem;color: #4458E5;"></i></a> {{ palestrante.track }}
-                                      </td>
-                                    </tr>
-                                    {% endif %}
-
+                                  {% for hour, hour_group in group|groupby('presentation_datetime.hour') %}
+                                      {% for palestrante in hour_group|sort(attribute='presentation_datetime') %}
+                                          {% set loop2_ = loop.index %}
+                                          {% if loop2_ == 1 %}
+                                          {{ render_schedule_hour(palestrante, hide_links=this.activate_schedule_links) }}
+                                          {% endif %}
+                                          {% if palestrante.type == 'other' %}
+                                          {{ render_other_schedule(palestrante, hide_links=this.activate_schedule_links) }}
+                                          {% elif palestrante.type == 'keynote' %}
+                                          {{ render_keynote_schedule(palestrante, hide_links=this.activate_schedule_links) }}
+                                          {% else %}                                              {{ render_talk_schedule(palestrante, alt=this.alt, hide_links=this.activate_schedule_links) }}
+                                          {% endif %}
+                                      {% endfor %}
                                   {% endfor %}
                                   </tbody>
                                 </table>
@@ -128,3 +101,9 @@
         </div>
     </div>
 </div>
+
+{% for palestrante in schedule %}
+{% if not palestrante.type == 'other' %}
+  {{ render_modal(palestrante=palestrante, alt=alt) }}
+{% endif %}
+{% endfor %}
