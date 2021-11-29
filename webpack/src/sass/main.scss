@@ -387,6 +387,15 @@
     tbody > tr {
       height: 40px;
     }
+
+    .schedule-link {
+      color: #fff !important;
+
+      &:hover {
+        color: #fff !important;
+      }
+
+    }
   }
 
   .nav-pills-schedule {

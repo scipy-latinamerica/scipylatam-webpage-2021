@@ -1,5 +1,5 @@
 {%- from "macros/palestrante.html" import render_palestrante -%}
-{%- set palestrantes = site.get('/palestrantes', alt=this.alt).children -%}
+{%- set palestrantes = site.get('/palestrantes', alt=this.alt).children.filter(F.hide == False) -%}
 
 <div id="carouselTalks" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-inner">
