@@ -17,13 +17,14 @@
         {% endfor %}
   </div>
 
-<br>
+    <br/>
+    <br/>
 
-<div class="carousel-indicators">
-    {% for ps in grouped(palestrantes, 8) %}
-    {% set loop_ = loop.index %}
-    <button type="button" data-bs-target="#carouselTalks" data-bs-slide-to="{{ loop.index0 }}" {% if loop_ == 1 %}class="active" aria-current="true"{% endif %}></button>
-    {% endfor %}
-</div>
+    <div class="carousel-indicators">
+        {% for ps in grouped(palestrantes, 8) %}
+        {% set loop_ = loop.index %}
+        <button type="button" data-bs-target="#carouselTalks" data-bs-slide-to="{{ loop.index0 }}" {% if loop_ == 1 %}class="active" aria-current="true"{% endif %}></button>
+        {% endfor %}
+    </div>
 
 </div>

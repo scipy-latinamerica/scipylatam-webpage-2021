@@ -1,15 +1,14 @@
 {%- from "macros/modal.html" import render_modal -%}
 
 {% macro render_palestrante(palestrante, alt, size=3) %}
-<div class="col-lg-{{ size }} col-xl-{{ size }}">
+<div class="col-lg-{{ size }} col-xl-{{ size }} text-center">
     <div class="palestrante">
         <a data-bs-toggle="modal" href="#{{ palestrante._id }}">
             <img class="img"
             src="{{ palestrante.attachments.images.get(palestrante.avatar)|url }}"
             width=216 height=238 alt="{{ palestrante.name }}" />
         </a>
-        <h3 class="text-center"> {{ palestrante.name }} </h3>
-
+        <h3>{{ palestrante.name }}</h3>
         {{ render_modal(palestrante=palestrante, alt=alt) }}
     </div>
 </div>
