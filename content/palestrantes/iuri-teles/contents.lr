@@ -4,6 +4,8 @@ pronouns: He/him/his/ele/dele
 ---
 avatar: iuri-teles.png
 ---
+avatar_hover: iuri-teles-hover.png
+---
 bio: Sou CIO e CO-Founder da Ayo uma solução de logística e transporte intermunicipal com sede no estado de Sergipe. Auxílio como líder técnico a Brainy Resolution e a EMPREL (empresa da cidade do Recife). Recentemente ajudei no desenvolvimento de soluções relacionadas a saúde, tais como o Atende em Casa e Atende APS utilizados na prefeitura da cidade e no desenvolvimento da conexão com os sistema de vacinação do governo. Acabei de finalizar o Mestrado em IA pelo CIN da UFPE.
 ---
 company: EMPREL
@@ -38,4 +40,5 @@ presentation_time: 2021-12-12 16:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

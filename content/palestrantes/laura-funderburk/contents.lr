@@ -4,6 +4,8 @@ pronouns: She/her/hers/ella/\
 ---
 avatar: laura-funderburk.png
 ---
+avatar_hover: laura-funderburk-hover.png
+---
 bio: Laura trabaja como científico de datos en Cybera. Ella tiene experiencia facilitando talleres en Python, Bash and GitHub para audiencias de varias edades. Laura completó sus estudios en Matemáticas en Simon Fraser University (SFU). En 2019, su universidad reconoció sus contribuciones y su habilidad para afrontar situaciones difíciles y le otorgó una medalla de oro en honor a Terry Fox. 
 
 ---
@@ -41,4 +43,5 @@ presentation_time: 2021-12-12 11:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

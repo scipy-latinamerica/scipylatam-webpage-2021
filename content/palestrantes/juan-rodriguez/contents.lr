@@ -4,6 +4,8 @@ pronouns: él/he
 ---
 avatar: juan-rodriguez.png
 ---
+avatar_hover: juan-rodriguez-hover.png
+---
 bio: Soy Ingeniero Aeronáutico y trabajo como Defensor del Desarrollador (Developer Advocate) en Read the Docs, una empresa que ofrece generación y alojamiento de documentación. En mi tiempo libre imparto clases, escucho música, berreo en LinkedIn, y persigo sueños imposibles.
 
 //
@@ -48,4 +50,5 @@ presentation_time: 2021-12-12 11:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

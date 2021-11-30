@@ -4,6 +4,8 @@ pronouns: ele/dele
 ---
 avatar: emanuel-lima.png
 ---
+avatar_hover: emanuel-lima-hover.png
+---
 bio: Engenheiro de software em HPC na Block Science, responsável pela engenharia de performance da biblioteca open source cadCAD.
 ---
 company: Block Science
@@ -38,5 +40,5 @@ presentation_time: 2021-12-11 12:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
-
+hide: no
+---

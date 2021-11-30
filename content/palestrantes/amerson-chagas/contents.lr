@@ -4,6 +4,8 @@ pronouns: Ele
 ---
 avatar: amerson-chagas.png
 ---
+avatar_hover: amerson-chagas-hover.png
+---
 bio: Possui graduação em Sistemas Para Internet , especialização em Tecnologias Para Aplicações Web e Mestrando em Engenharia de Software com pesquisa em IA . Analista de Tecnologia de Informação da Universidade do Estado do Amapá e Docente da Faculdade de Tecnologia do Amapá. Tem experiência na área de Ciência da Computação, com ênfase em Desenvolvimento de Sistemas.
 ---
 company: Universidade do Estado do Amapá - UEAP
@@ -43,4 +45,5 @@ presentation_time: 2021-12-11 14:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

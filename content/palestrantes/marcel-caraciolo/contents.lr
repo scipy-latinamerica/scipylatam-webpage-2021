@@ -4,6 +4,8 @@ pronouns: He
 ---
 avatar: marcel-caraciolo.png
 ---
+avatar_hover: marcel-caraciolo-hover.png
+---
 bio: I am Marcel Pinheiro Caraciolo, living in Recife, Brazil. I am computer engineer with undergoing MBA on Technology for Business in Artificial Intelligence, Data Science and Big Data and Specialization in Agile Project Management.
 
 My interests are product management, bioinformatics computing, data science, sports analytics and productivity. When I am not coding or managing, I often run (training hard to be a marathonist) and build and rebuild one of my collection of Lego Architecture sets.
@@ -40,4 +42,5 @@ presentation_time: 2021-12-11 17:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

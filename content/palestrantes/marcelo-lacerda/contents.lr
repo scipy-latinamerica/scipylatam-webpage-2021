@@ -4,6 +4,8 @@ pronouns: Ele/dele
 ---
 avatar: marcelo-lacerda.png
 ---
+avatar_hover: marcelo-lacerda-hover.png
+---
 bio: Doutor em Ciência da Computação pela Universidade Federal de Pernambuco, Brasil, há 12 anos vem trabalhando em diferentes projetos de pesquisa e desenvolvimento em Inteligência Artificial tanto na indústria quanto na academia. Atualmente na B3, há 6 anos trabalha como Cientista de Dados. Suas áreas de pesquisa de maior interesse são Aprendizagem por Reforço e Computação Evolucionária.
 ---
 company: B3
@@ -38,4 +40,5 @@ presentation_time: 2021-12-12 14:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---
