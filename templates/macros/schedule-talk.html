@@ -10,21 +10,20 @@
 {%- set _tr_all = transbag('schedule', alt, 'all') -%}
 
 <tr data-schedule-time="{{ talk.presentation_time }}">
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
+  <td>
     {% if talk.type == 'talk' %}{{ _tr_talk }}
     {% elif talk.type == 'tutorial' %}{{ _tr_tutorial }}
     {% endif %}
   </td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+  <td>
     {% if talk.level|lower == 'principiante' %}{{ _tr_beginner }}
     {% elif talk.level|lower == 'intermediário' %}{{ _tr_intermediate }}
     {% elif talk.level|lower == 'avançado' %}{{ _tr_advanced }}
     {% else %}{{ _tr_all }}{% endif %}
   </td>
 
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ talk.title }}</td>
-  <td class="d-table-cell d-xs-none d-sm-none d-md-none">{{ talk.title }} - <a data-bs-toggle="modal" href="#{{ talk._id }}"><span class="schedule-name">{{ talk.name }}</span></a></td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+  <td>{{ talk.title }}</td>
+  <td>
     <a data-bs-toggle="modal" href="#{{ talk._id }}"><span class="schedule-name">{{ talk.name }}</span></a>
   </td>
   <td>

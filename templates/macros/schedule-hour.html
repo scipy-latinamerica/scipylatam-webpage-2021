@@ -1,20 +1,16 @@
 {% macro render_schedule_hour(talk, hide_links) %}
 <tr style="color: #fff;background-color: #575756;">
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"></td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"></td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
-    <div class="vertical-align: middle;">
-        {{ talk.presentation_time|schedule_datetime(duration=talk.duration) }} <span class="badge bg-danger d-none" alt="Live">LIVE</span>
-    </div>
-  </td>
-  <td class="d-table-cell d-xs-none d-sm-none d-md-none">
+  <td></td>
+  <td></td>
+  <td>
     <div class="vertical-align: middle;">
         {{ talk.presentation_time|schedule_datetime(duration=talk.duration) }} <span class="badge bg-danger d-none" alt="Live">LIVE</span>
     </div>
   </td>
   <td></td>
+  <td></td>
   {% if hide_links %}
-    <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"></td>
+    <td></td>
   {% endif %}
 </tr>
 {% endmacro %}
