@@ -30,7 +30,7 @@ level: Principiante
 ---
 language: pt
 ---
-title: O ENSINO DA LINGUAGEM PYTHON NO ENSINO SUPERIOR
+title: O Ensino da Linguagem Python no Ensino Superior
 ---
 description: Considerando as disciplinas de algoritmos e programação de computadores, presente em diversas áreas de conhecimento, como nas Engenharias, na Linguística, na Ciência da Informação, na Biblioteconomia, em Tecnologia de Sistemas para Internet, entre outras, tem-se percebido a demanda do ensino da linguagem Python para o contexto do Data Science. Nesse cenário, a proposta é apresentar com tem sido o processo de ensino no formato remoto - ocasionado pela Pandemia da Covid-19 - que impulsionou o uso de tecnologias digitais de informação e comunicação TDICs como ferramenta de apoio para o processo de aprendizagem.
 ---
@@ -42,3 +42,4 @@ presentation_time: 2021-12-12 14:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

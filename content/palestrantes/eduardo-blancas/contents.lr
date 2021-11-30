@@ -30,7 +30,7 @@ level: Intermediário
 ---
 language: es
 ---
-title: Desarrollo de pipelines de datos con Ploomber
+title: Desarrollo de Pipelines de Datos con Ploomber
 ---
 description: Jupyter es una herramienta popular entre los científicos de datos debido a su flexibilidad, que permite a los usuarios intercalar código, texto e imágenes. Sin embargo, escribir notebooks que sigan las mejores prácticas de ingeniería de software es un desafío: la reproducibilidad, el control de versiones, la modularización y la colaboración son difíciles de seguir cuando se utilizan notebooks, lo que aumenta considerablemente el tiempo de desarrollo.
 
@@ -53,3 +53,4 @@ presentation_time: 2021-12-12 11:00:00-03:00
 ---
 duration: 120
 ---
+hide: false

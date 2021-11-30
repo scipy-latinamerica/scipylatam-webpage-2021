@@ -18,7 +18,7 @@ level: Principiante
 ---
 language: es
 ---
-title: Deduzco luego programo, primeros pasos en la Ciencia de Datos
+title: Deduzco Luego Programo, Primeros Pasos en la Ciencia de Datos
 ---
 description: En este taller iniciamos un análisis exploratorio sobre un caso real datos extraidos de un repositorio de un grupo de investigación. 
 Usaremos las librerías para el manejo de grandes volumenes de información Pandas y graficos interactivos con plotly, 
@@ -36,3 +36,4 @@ presentation_time: 2021-12-12 08:00:00-03:00
 ---
 duration: 120
 ---
+hide: false

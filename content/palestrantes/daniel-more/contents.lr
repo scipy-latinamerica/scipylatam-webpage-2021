@@ -30,7 +30,7 @@ level: Todos
 ---
 language: es
 ---
-title: Contributing to Open Source: From not knowing Python to becoming a Spyder core developer
+title: Contributing to Open Source: From Not Knowing Python to Becoming a Spyder Core Developer
 ---
 description: In this talk, I would like to share my experience being an open source developer, how I started my journey contributing to Spyder (a development environment for scientific Python), and how contributing to this project has now become my full-time job.
 
@@ -59,3 +59,4 @@ presentation_time: 2021-12-12 15:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

@@ -30,7 +30,7 @@ level: Todos
 ---
 language: pt
 ---
-title: Querido Diário, hoje eu raspei dados usando... o método científico?!
+title: Querido Diário, Hoje Eu Raspei Dados Usando... O Método Científico?!
 ---
 description: Diários oficiais municipais são a principal forma de comunicação oficial entre os cidadãos e o poder executivo porque o governo é obrigado por lei a publicar seus atos oficiais nos diários. Porém, não há um padrão ou guia para publicar o conteúdo, ou seja, temos potencialmente 5570 municípios brasileiros publicando cada um do seu jeito. E pior, a maioria faz suas publicações em formatos fechados como PDF ou DOCX.
 
@@ -49,3 +49,4 @@ presentation_time: 2021-12-11 10:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

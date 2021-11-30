@@ -18,9 +18,9 @@ level: Principiante
 ---
 language: pt
 ---
-title: Simulação presa-predador: usando python para estruturar e analisar
+title: Simulação Presa-Predador: Usando Python para Estruturar e Analisar
 ---
-description: apresentar o uso de python para organizar a estrutura de simulação e analisar os resultados
+description: Apresentar o uso de python para organizar a estrutura de simulação e analisar os resultados.
 ---
 published: false
 ---
@@ -30,3 +30,4 @@ presentation_time: 2021-12-12 15:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

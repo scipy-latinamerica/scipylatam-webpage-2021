@@ -26,7 +26,7 @@ level: Todos
 ---
 language: pt
 ---
-title: Detecção de violência em áudio a partir de Mel-spectograms
+title: Detecção de Violência em Áudio a partir de Mel-Spectograms
 ---
 description: Há um crescente interesse em sistemas de detecção de violência de forma automática por meio do áudio ambiente. No entanto, as técnicas de extração de características de áudio ainda não alcançaram o nível de maturidade que encontramos em outros domínios, como imagem. Quando se trata de imagens, há uma gama de algoritmos de aprendizagem profunda de alta sofisticação e desempenho disponíveis para uso.
 Nesta palestra, apresentamos uma pesquisa recente do nosso grupo de pesquisa cuja a ideia não é processar diretamente os sinais de áudio, e sim, convertê-los para imagens, conhecidas como mel-spectrograms. Com isso, o problema passa a ser tratado como uma tarefa de classificação de imagens, podendo-se utilizar redes convolucionais do estado da arte. A solução proposta alcançou resultados promissores, que foram publicados em evento nacional. O detalhamento da pesquisa será apresentado nesta palestra.
@@ -39,3 +39,4 @@ presentation_time: 2021-12-12 17:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

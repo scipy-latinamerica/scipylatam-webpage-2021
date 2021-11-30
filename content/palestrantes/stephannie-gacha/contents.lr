@@ -30,7 +30,7 @@ level: Todos
 ---
 language: es
 ---
-title: Data APIs: Estandarización de arreglos n-dimensionales y dataframes
+title: Data APIs: Estandarización de Arreglos N-Dimensionales y Dataframes
 ---
 description: Introducción al consorcio, motivación, objetivos y logros de estandarización del primer año.
 ---
@@ -42,3 +42,4 @@ presentation_time: 2021-12-12 16:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

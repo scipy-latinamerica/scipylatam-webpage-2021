@@ -25,8 +25,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <p class="title text-center">{{ _tr_presentation }}:</p>
-                    <p>{{ palestrante.bio }}</p>
+                    <p class="title text-center">{{ _tr_presentation }}: {% if palestrante.title %} {{ palestrante.title }} {% endif %}</p>
+                    <p>{{ palestrante.description or palestrante.bio }}</p>
                     {% if palestrante.social %}
                     <p class="title text-center">{{ _tr_social }}:</p>
                     <ul class="social-menu d-flex justify-content-center">

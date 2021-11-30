@@ -30,7 +30,7 @@ level: Intermediário
 ---
 language: en
 ---
-title: RealTime Face detection with computer Vision and Python
+title: RealTime Face Detection with Computer Vision and Python
 ---
 description: Face detection is a computer vision technology that helps to locate/visualize human faces in digital images. This technique is a specific use case of object detection technology that deals with detecting instances of semantic objects of a certain class (such as humans, buildings or cars) in digital images and videos. With the advent of technology, face detection has gained a lot of importance especially in fields like photography, security, and marketing.
 ---
@@ -42,3 +42,4 @@ presentation_time: 2021-12-12 17:00:00-03:00
 ---
 duration: 60
 ---
+hide: false
