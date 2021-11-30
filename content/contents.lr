@@ -25,7 +25,7 @@ conference_title:
 ---
 conference_action_button: Participe agora
 ---
-conference_body: <p class="p-large">A 8ª conferência latino americana de python científico acontecerá <b>em 11-12 de dezembro, 100% online e gratuita</b>. A conferência SciPy reúne anualmente entusiastas, desenvolvedores, acadêmicos e empresas com o intuito de mostrar seus projetos científicos, soluções mais recentes e principalmente trocar experiências. <b>As inscrições para os palestrantes estão abertas e vão até o dia 12 de novembro!</b> </p>
+conference_body: <p class="p-large">A 8ª conferência latino americana de python científico acontecerá <b>em 11-12 de dezembro, 100% online e gratuita</b>. A conferência SciPy reúne anualmente entusiastas, desenvolvedores, acadêmicos e empresas com o intuito de mostrar seus projetos científicos, soluções mais recentes e principalmente trocar experiências.</p>
 ---
 about_conference_body:
 
