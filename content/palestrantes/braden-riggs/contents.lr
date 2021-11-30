@@ -4,6 +4,8 @@ pronouns: he/him/his
 ---
 avatar: braden-riggs.png
 ---
+avatar_hover: braden-riggs-hover.png
+---
 bio: Originally From Australia and now living in San Diego, Braden joined the professional world of tech as a Data Scientist in 2020 working at a variety of companies including startups and semiconductor manufacturers, before joining the Dolby.io team working in Developer Relations. Braden has a passion for python, tinkering away at a range of projects that leverage some of the language's best tools for solving problems in data collection, creation, and machine learning.
 ---
 company: Dolby.io
@@ -35,6 +37,8 @@ title: Audio Data for Data Science
 description: In a world where content capture and creation sits in your pocket, the amount of audio collected and stored has exploded exponentially in recent years creating a goldmine of unstructured data ready to be explored and used. Just one problem, how do we work with all of this audio data and how do we make sure we are utilizing it to its full potential? In this talk we will explore how you can unlock more from your audio data in python, exploring some of our favorite data extraction and analysis tools and how we used them to better understand the world of podcast creation.
 
 As part of the Dolby.io (https://dolby.io/) team we regularly work with audio data for a variety of data science related projects and are eager to share some of the tips, tricks and tools we've learnt along the way that can help audio data beginners get started and inspire seasoned veterans to rethink how they work in the space.
+
+
 ---
 published: false
 ---
@@ -44,4 +48,5 @@ presentation_time: 2021-12-12 11:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

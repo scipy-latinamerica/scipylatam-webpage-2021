@@ -4,6 +4,8 @@ pronouns: ele/el/he
 ---
 avatar: juan-fisanotti.png
 ---
+avatar_hover: juan-fisanotti-hover.png
+---
 bio: Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.
 Doy clases en varias materias de Ingeniería en Sistemas (usando bastante Python para ello también), me entusiasma el software libre, y me gustan mucho las espadas y los aviones.
 ---
@@ -39,4 +41,5 @@ presentation_time: 2021-12-11 16:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

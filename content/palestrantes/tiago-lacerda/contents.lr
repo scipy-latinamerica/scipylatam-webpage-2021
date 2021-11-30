@@ -4,6 +4,8 @@ pronouns: ele
 ---
 avatar: tiago-lacerda.png
 ---
+avatar_hover: tiago-lacerda-hover.png
+---
 bio: mestre e agora doutorando em em engenharia de Software.
 ---
 company: Cesar.School
@@ -39,4 +41,5 @@ presentation_time: 2021-12-12 17:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

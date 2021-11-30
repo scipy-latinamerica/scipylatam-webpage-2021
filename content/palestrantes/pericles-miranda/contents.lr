@@ -4,6 +4,8 @@ pronouns: Ele
 ---
 avatar: pericles-miranda.png
 ---
+avatar_hover: pericles-miranda-hover.png
+---
 bio: Péricles Miranda é doutor em Ciência da Computação pela Universidade Federal de Pernambuco. Atualmente é Professor Adjunto da Universidade Federal Rural de Pernambuco (UFRPE) e cientista chefe do AiBox Lab. Tem ampla experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial, atuando principalmente em temas relacionados a Aprendizado de Máquina Automatizado (AutoML), Aprendizado Supervisionado e Algoritmos Meta-heurísticos e Hiperheurísticos.
 ---
 company: AiBox Lab
@@ -38,4 +40,5 @@ presentation_time: 2021-12-11 16:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

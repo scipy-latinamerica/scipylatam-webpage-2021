@@ -4,6 +4,8 @@ pronouns: Ele/el/he
 ---
 avatar: wendel-assis.png
 ---
+avatar_hover: wendel-assis-hover.png
+---
 bio: Experiência, desde 2010, na área de Tecnologia da Informação. Graduação em Redes de Computadores, Sistemas de informação, Mestrado em Sistemas de Informação e Gestão do Conhecimento. Atualmente cursando Pós-Graduação em Estatística Aplicada.
 
 Atuação como cientista de dados e realização de consultoria como especialista nas áreas de Ciência de Dados, Inteligência Artificial, Business Intelligence, Redes de Computadores, Sistemas de Informação, ITIL e vivência como professor.
@@ -43,4 +45,5 @@ presentation_time: 2021-12-12 16:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

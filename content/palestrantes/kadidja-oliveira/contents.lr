@@ -4,6 +4,8 @@ pronouns: ela/dela
 ---
 avatar: kadidja-oliveira.png
 ---
+avatar_hover: kadidja-oliveira-hover.png
+---
 bio: Analista de Sistemas (UNEB), arquivista (UnB) e tecnóloga em Gestão Pública(IFB). Mestra e Doutoranda em Ciência da Informação (UnB). Atua como Professora na área de Informação e Comunicação, Informática e Ciência da Computação. Ministra disciplinas de Lógica e Programação com Python, Engenharia de Software, Programação para Internet e Informática. Especialista em E-learning, desenvolve projetos com metodologias ativas e analítica na educação à distância. Educação continuada é seu lema. 
 ---
 company: Institituto Federal de Brasília - IFB e Universidade Federal do Amazonas- UFAM
@@ -42,4 +44,5 @@ presentation_time: 2021-12-11 14:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

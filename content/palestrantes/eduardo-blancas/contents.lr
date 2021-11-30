@@ -4,6 +4,8 @@ pronouns: he/him/his
 ---
 avatar: eduardo-blancas.png
 ---
+avatar_hover: eduardo-blancas-hover.png
+---
 bio: Eduardo está interesado en construir herramientas que faciliten el desarrollo de productos de datos. Con ese fin desarrolló Ploomber, una biblioteca de código abierto para ciencia de datos que se presentó en JupyterCon 2020. Eduardo tiene una maestría en ciencia de datos por la Universidad de Columbia, donde realizó investigaciones en neurociencia computacional. Comenzó su carrera en ciencia de datos en 2015 en el Centro de ciencia de datos y políticas públicas de la Universidad de Chicago.
 ---
 company: Ploomber
@@ -53,4 +55,5 @@ presentation_time: 2021-12-12 11:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

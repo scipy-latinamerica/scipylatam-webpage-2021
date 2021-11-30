@@ -4,6 +4,8 @@ pronouns: ele/dele
 ---
 avatar: moesio-filho.png
 ---
+avatar_hover: moesio-filho-hover.png
+---
 bio: Moésio é um estudante de Ciência da Computação na Universidade Federal Rural de Pernambuco (UFRPE), e técnico em Programação de Jogos Digitais pela Escola Técnica Estadual Cícero Dias - NAVE Recife. Alguns dos seus interesses de pesquisa são  Aprendizado de Máquina, Computação Neural e Evolucionária, e Astrofísica Computacional.
 ---
 company: 
@@ -38,4 +40,5 @@ presentation_time: 2021-12-11 17:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

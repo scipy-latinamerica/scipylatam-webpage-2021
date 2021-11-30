@@ -4,6 +4,8 @@ pronouns: Ele/dele
 ---
 avatar: anderson-dantas.png
 ---
+avatar_hover: anderson-dantas-hover.png
+---
 bio: Desenvolvedor Python na Zyte (antiga Scrapinghub). Mestre em Computação Inteligente pela UFPE. Ama Python, é fã de boardgames e videogames e ainda arranha um violão
 ---
 company: Zyte (antiga Scrapinghub)
@@ -38,4 +40,5 @@ presentation_time: 2021-12-11 12:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

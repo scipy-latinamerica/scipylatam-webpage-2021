@@ -4,6 +4,8 @@ pronouns: ele/el/he
 ---
 avatar: david-gonzalez.png
 ---
+avatar_hover: david-gonzalez-hover.png
+---
 bio: Doctor en Ingeniería Mecánica por la UFSC (Florianópolis, Brasíl) especializado en el área de fabricación. Actualmente profesor en ITESO (Guadalajara, México). Escribo código en Python para resolver problemas, organizar datos y para apoyar proyectos de investigación. Músico en mis tiempos libres. 
 ---
 company: Universidad ITESO
@@ -38,4 +40,5 @@ presentation_time: 2021-12-12 15:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

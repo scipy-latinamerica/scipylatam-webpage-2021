@@ -4,6 +4,8 @@ pronouns:  he/him/his
 ---
 avatar: nico-quiroz.png
 ---
+avatar_hover: nico-quiroz-hover.png
+---
 bio: Nicolás Quiroz es ingeniero biomédico, docente universitario y actualmente esta realizando su doctorado en Ciencias de Salud. Trabaja como investigador en HIBA es una persona amable y es fanático de las To-Do List
 ---
 company: Instituto de Medicina Traslacional e Ingeniería Biomédica (IMTIB) 
@@ -36,4 +38,5 @@ presentation_time: 2021-12-12 08:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

@@ -4,6 +4,8 @@ pronouns: Ele/Dele/He/Him
 ---
 avatar: steffano-pereira.png
 ---
+avatar_hover: steffano-pereira-hover.png
+---
 bio: Eu sou Aluno pesquisador de Iniciação Científica do Grupo de Pesquisa AIBox Lab, sou estudante de Ciência da Computação na Universidade Federal Rural de Pernambuco (UFRPE) e nas horas livres eu dedico meu tempo para ajudar no crescimento da comunidade UFRPE Devs
 ---
 company: AiBox Lab
@@ -38,4 +40,5 @@ presentation_time: 2021-12-12 17:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

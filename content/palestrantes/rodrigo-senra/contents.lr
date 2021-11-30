@@ -4,6 +4,8 @@ pronouns: Ele/dele He/him/his
 ---
 avatar: rodrigo-senra.png
 ---
+avatar_hover: rodrigo-senra-hover.png
+---
 bio: Fã de Python desde 1997. Organizador da primeira PythonBrasil 2005. Tradutor do tutorial do GvR para pt-br em 2001. Membro fundador da APyBr em 2007.
 ---
 company: Work &Co
@@ -42,4 +44,5 @@ presentation_time: 2021-12-12 15:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

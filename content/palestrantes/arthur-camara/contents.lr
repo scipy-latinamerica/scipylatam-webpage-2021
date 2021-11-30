@@ -4,6 +4,8 @@ pronouns: ele/dele
 ---
 avatar: arthur-camara.png
 ---
+avatar_hover: arthur-camara-hover.png
+---
 bio: Arthur Câmara é pesquisador PhD na Delft University of Technology, na Holanda, nas áreas de Recuperação da Informação e Processamento de Linguagem Natural, especialmente em como podemos unir técnicas clássicas de busca com técnicas modernas de Deep Learning. 
 
 Ele também tem bacharelado e mestrado em Ciência da Computação pela UFMG e anos de experiência como pesquisador e Cientista de Dados, com passagens pela Bloomberg (Londres), DTI (Belo Horizonte) e Mediar (San Francisco). 
@@ -46,4 +48,5 @@ presentation_time: 2021-12-11 10:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

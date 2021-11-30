@@ -4,6 +4,8 @@ pronouns: he/el
 ---
 avatar: ariel-ramos.png
 ---
+avatar_hover: ariel-ramos-hover.png
+---
 bio: Asistente Tecnico de Tecnologia para Docentes, Investigadores, Univesidad Nacional de Salta y Jujuy de CONICET Argentina. 
 ---
 company: UNSA (Fac. Cs. EXACTAS, Fac. Cs. NATURALES) - CONICET Argentina (INENCO, INECOA)
@@ -42,4 +44,5 @@ presentation_time: 2021-12-12 08:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

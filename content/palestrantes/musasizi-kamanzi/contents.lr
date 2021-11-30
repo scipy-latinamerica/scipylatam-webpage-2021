@@ -4,6 +4,8 @@ pronouns: Mr
 ---
 avatar: musasizi-kamanzi.png
 ---
+avatar_hover: musasizi-kamanzi-hover.png
+---
 bio: Iam Musasizi Francis Kamanzi, an AI researcher, Software engineer with 3years experience in both fields, i enjoy most of my time coding and researching
 ---
 company: Cajya
@@ -42,4 +44,5 @@ presentation_time: 2021-12-11 10:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

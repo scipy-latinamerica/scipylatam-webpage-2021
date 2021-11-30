@@ -4,6 +4,8 @@ pronouns: he/him/his
 ---
 avatar: wilson-freitas.png
 ---
+avatar_hover: wilson-freitas-hover.png
+---
 bio: Físico que trabalha no Mercado Financeiro. Contribui com a comunidade de software livre desenvolvendo pacotes em R e Python aplicados a Finanças Quant. Gosta de fazer pães e corrida de rua nas horas vagas.
 ---
 company: Modalmais
@@ -43,4 +45,5 @@ presentation_time: 2021-12-12 08:00:00-03:00
 ---
 duration: 120
 ---
-hide: false
+hide: no
+---

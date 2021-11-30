@@ -4,6 +4,8 @@ pronouns: ele/él/he
 ---
 avatar: daniel-more.png
 ---
+avatar_hover: daniel-more-hover.png
+---
 bio: Colombian, 26, Software Engineer at Quansight Labs, currently working on Spyder IDE (the Scientific Python Development Environment) and some other Python packages supported by the Spyder team as a core developer
 ---
 company: Quansight
@@ -59,4 +61,5 @@ presentation_time: 2021-12-12 17:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---

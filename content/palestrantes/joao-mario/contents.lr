@@ -4,6 +4,8 @@ pronouns: ele/dele
 ---
 avatar: joao-mario.png
 ---
+avatar_hover: joao-mario-hover.png
+---
 bio: Estudante de Física da UFRPE e entusiasta da computação
 ---
 company: 
@@ -30,4 +32,5 @@ presentation_time: 2021-12-12 15:00:00-03:00
 ---
 duration: 60
 ---
-hide: false
+hide: no
+---
