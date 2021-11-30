@@ -4,13 +4,23 @@
 {%- set _tr_talk = transbag('schedule', alt, 'talk') -%}
 {%- set _tr_tutorial = transbag('schedule', alt, 'tutorial') -%}
 
+{%- set _tr_beginner = transbag('schedule', alt, 'beginner') -%}
+{%- set _tr_intermediate = transbag('schedule', alt, 'intermediate') -%}
+{%- set _tr_advanced = transbag('schedule', alt, 'advanced') -%}
+{%- set _tr_all = transbag('schedule', alt, 'all') -%}
+
 <tr data-schedule-time="{{ talk.presentation_time }}">
   <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell" style="max-width: 200px">
     {% if talk.type == 'talk' %}{{ _tr_talk }}
     {% elif talk.type == 'tutorial' %}{{ _tr_tutorial }}
     {% endif %}
   </td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ talk.level }}</td>
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+    {% if talk.level|lower == 'principiante' %}{{ _tr_beginner }}
+    {% elif talk.level|lower == 'intermediário' %}{{ _tr_intermediate }}
+    {% elif talk.level|lower == 'avançado' %}{{ _tr_advanced }}
+    {% else %}{{ _tr_all }}{% endif %}
+  </td>
 
   <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">{{ talk.title }}</td>
   <td class="d-table-cell d-xs-none d-sm-none d-md-none">{{ talk.title }} - <a data-bs-toggle="modal" href="#{{ talk._id }}"><span class="schedule-name">{{ talk.name }}</span></a></td>

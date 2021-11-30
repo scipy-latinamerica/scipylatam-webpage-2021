@@ -86,8 +86,8 @@
                                           {% if palestrante.type == 'other' %}
                                           {{ render_other_schedule(palestrante, hide_links=this.activate_schedule_links) }}
                                           {% elif palestrante.type == 'keynote' %}
-                                          {{ render_keynote_schedule(palestrante, hide_links=this.activate_schedule_links) }}
-                                          {% else %}                                              {{ render_talk_schedule(palestrante, alt=this.alt, hide_links=this.activate_schedule_links) }}
+                                          {{ render_keynote_schedule(palestrante, alt=this.alt, hide_links=this.activate_schedule_links) }}
+                                          {% else %}{{ render_talk_schedule(palestrante, alt=this.alt, hide_links=this.activate_schedule_links) }}
                                           {% endif %}
                                       {% endfor %}
                                   {% endfor %}

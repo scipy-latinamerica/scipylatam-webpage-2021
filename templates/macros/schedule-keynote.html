@@ -1,8 +1,19 @@
-{% macro render_keynote_schedule(keynote, hide_links) %}
-<tr class="rounded" style="color: #fff; background-color: #12A348;">
+{%- from "macros/translation.html" import transbag -%}
 
+{% macro render_keynote_schedule(keynote, alt, hide_links) %}
+{%- set _tr_beginner = transbag('schedule', alt, 'beginner') -%}
+{%- set _tr_intermediate = transbag('schedule', alt, 'intermediate') -%}
+{%- set _tr_advanced = transbag('schedule', alt, 'advanced') -%}
+{%- set _tr_all = transbag('schedule', alt, 'all') -%}
+
+<tr class="rounded" style="color: #fff; background-color: #12A348;">
   <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> Keynote </td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> {{ keynote.level }}</td>
+  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+    {% if keynote.level|lower == 'principiante' %}{{ _tr_beginner }}
+    {% elif keynote.level|lower == 'intermediário' %}{{ _tr_intermediate }}
+    {% elif keynote.level|lower == 'avançado' %}{{ _tr_advanced }}
+    {% else %}{{ _tr_all }}{% endif %}
+  </td>
   <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
     <a data-bs-toggle="modal" class="schedule-link" href="#{{ keynote._id }}">KEYNOTE - {{ keynote.name|upper }}</a>
   </td>
