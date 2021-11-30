@@ -7,19 +7,17 @@
 {%- set _tr_all = transbag('schedule', alt, 'all') -%}
 
 <tr class="rounded" style="color: #fff; background-color: #12A348;">
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell"> Keynote </td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+  <td> Keynote </td>
+  <td>
     {% if keynote.level|lower == 'principiante' %}{{ _tr_beginner }}
     {% elif keynote.level|lower == 'intermediário' %}{{ _tr_intermediate }}
     {% elif keynote.level|lower == 'avançado' %}{{ _tr_advanced }}
     {% else %}{{ _tr_all }}{% endif %}
   </td>
-  <td class="d-none d-xs-table-cell d-sm-table-cell d-md-table-cell">
+  <td>
     <a data-bs-toggle="modal" class="schedule-link" href="#{{ keynote._id }}">KEYNOTE - {{ keynote.name|upper }}</a>
   </td>
-  <td class="d-table-cell d-xs-none d-sm-none d-md-none">
-    <a data-bs-toggle="modal" class="schedule-link" href="#{{ keynote._id }}">KEYNOTE - {{ keynote.name|upper }}</a>
-  </td>
+  <td></td>
   <td>
     {% if keynote.language == 'pt' %}<span class="badge bg-secondary" alt="Portuguese">PT</span>
     {% elif keynote.language == 'es' %}<span class="badge bg-secondary" alt="Spanish">ES</span>
