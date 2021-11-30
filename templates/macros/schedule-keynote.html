@@ -6,7 +6,7 @@
 {%- set _tr_advanced = transbag('schedule', alt, 'advanced') -%}
 {%- set _tr_all = transbag('schedule', alt, 'all') -%}
 
-<tr class="rounded" style="color: #fff; background-color: #12A348;">
+<tr data-schedule-time="{{ keynote.presentation_time }}" style="color: #fff; background-color: #12A348;">
   <td> Keynote </td>
   <td>
     {% if keynote.level|lower == 'principiante' %}{{ _tr_beginner }}
