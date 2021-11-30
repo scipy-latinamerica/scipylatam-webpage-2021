@@ -32,7 +32,7 @@ level: Intermediário
 ---
 language: pt
 ---
-title: Transformers Search: How BERT and friends are changing search
+title: Transformers Search: How BERT and Friends are Changing Search
 ---
 description: Modelos de Deep Learning usando transformers mudaram completamente como os mecanismos Recuperação da Informação se comportam nos últimos anos. 
 Com seus poderosos mecanismos de self-attention e outras técnicas, como transfer learning, finalmente chegamos no ponto onde, para Processamento de Linguagem Natural, e especialmente recuperação da informação, deep learning é significativamente melhor do que modelos tradicionais.
@@ -46,3 +46,4 @@ presentation_time: 2021-12-11 14:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

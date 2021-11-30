@@ -29,7 +29,7 @@ level: Todos
 ---
 language: pt
 ---
-title: Chat bot Sumé - Web Scraping em dados governamentais para consulta de gastos públicos dos vereadores da Câmara Municipal de Belo Horizonte
+title: Chat Bot Sumé - Web Scraping em Dados Governamentais para Consulta de Gastos Públicos dos Vereadores da Câmara Municipal de Belo Horizonte
 ---
 description: Esta apresentação é baseada na minha dissertação de mestrado. Nesse trabalho utilizei a técnica de Web Scraping em Python junto com algumas de suas bibliotecas para criar um robô. Este por sua vez extraí dados desestruturados do portal de transparência da câmara municipal de Belo Horizonte e transforma os mesmos em dados abertos estruturados, atendendo as premissas de transparência, segundo a Lei de Acesso a Informação.
 
@@ -43,3 +43,4 @@ presentation_time: 2021-12-12 16:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

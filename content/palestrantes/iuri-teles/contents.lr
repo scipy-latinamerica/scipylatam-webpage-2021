@@ -26,7 +26,7 @@ level: Todos
 ---
 language: pt
 ---
-title: Como utilizei Python para produzir previsão de ocorrências de casos de doenças infectocontagiosas
+title: Como Utilizei Python para Produzir Previsão de Ocorrências de Casos de Doenças Infectocontagiosas
 ---
 description: Proponho dialogar sobre como fiz o meu projeto de Mestrado, mostra dados os notebook, como obtive informação, coletei, desafios e as vantagens.
 ---
@@ -38,3 +38,4 @@ presentation_time: 2021-12-12 14:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

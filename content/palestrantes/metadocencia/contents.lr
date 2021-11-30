@@ -30,7 +30,7 @@ level: Principiante
 ---
 language: es
 ---
-title: Buenas prácticas para enseñar programación online
+title: Buenas Prácticas para Enseñar Programación Online
 ---
 description: En esta charla te propondremos técnicas y buenas prácticas basadas en evidencia para ayudarte a diseñar y conducir tus cursos de programación. Charlaremos acerca de estrategias para virtualizar tu clase con pocos recursos, mantener a tu audiencia motivada y lograr que tus clases y reuniones virtuales sean más accesibles.
 
@@ -43,3 +43,4 @@ presentation_time: 2021-12-11 14:00:00-03:00
 ---
 duration: 60
 ---
+hide: false

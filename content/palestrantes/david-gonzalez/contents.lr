@@ -26,7 +26,7 @@ level: Intermediário
 ---
 language: es
 ---
-title: Uso de python, numpy y sympy en la docencia del Método de Elementos Finitos
+title: Uso de Python, Numpy y Sympy en la Docencia del Método de Elementos Finitos
 ---
 description: Por algunos años he estado explorado el uso de Python (específicamente las librerías numpy y sympy) para la docencia del método de los elementos finitos (MEF) con alumnos de graduación. En esta charla comparto algunos de los desarrollos, logros y dificultades de esta experiencia.
 ---
@@ -38,3 +38,4 @@ presentation_time: 2021-12-12 14:00:00-03:00
 ---
 duration: 60
 ---
+hide: false
