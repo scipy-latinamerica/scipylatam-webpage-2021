@@ -30,7 +30,7 @@ about_conference_title: Acerca de SciPy Latam
 ---
 conference_action_button: Inscribase!
 ---
-conference_body: <p class = "p-large"> La octava conferencia científica latinoamericana sobre Python se llevará a cabo <b> del 11 al 12 de diciembre, 100% en línea y gratis </b>. La conferencia SciPy reúne anualmente a entusiastas, desarrolladores, académicos y empresas con el fin de mostrar sus últimos proyectos y soluciones y principalmente intercambiar experiencias.</p>
+conference_body: <p class = "p-large"> La octava conferencia científica latinoamericana sobre Python se llevará a cabo <b> del 11 al 12 de diciembre, 100% en línea y gratis </b>. La conferencia SciPy reúne anualmente a entusiastas, desarrolladores, académicos y empresas con el fin de mostrar sus últimos proyectos y soluciones y principalmente intercambiar experiencias. <b> ¡Registro abierto para acceso a la conferencia! ¡Haga clic en el botón de abajo y regístrese! </b></p>
 ---
 conference_title:
 
@@ -83,3 +83,7 @@ contact_title: ¿Quieres contactar con nosotros?
 activate_keynotes: yes
 ---
 activate_speakers: yes
+---
+registration_action_button: Registrate Acá
+---
+registration_form_url: ./forms/formulario-participante/
