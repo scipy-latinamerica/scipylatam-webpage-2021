@@ -8,11 +8,11 @@ description: Bem-vindo a SciPy Latin America 2021!
 ---
 body: 
 ---
-ogimage: https://pbs.twimg.com/profile_banners/3045030161/1626653950/1500x500
+ogimage: https://conf.scipy.lat/static/img/banner.png
 ---
-ogimage_height: 500
+ogimage_height: 320
 ---
-ogimage_width: 1500
+ogimage_width: 1280
 ---
 author: Comunidade Scipy Latin America
 ---
