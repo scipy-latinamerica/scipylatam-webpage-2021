@@ -30,7 +30,7 @@ about_conference_title: About SciPy Latam
 ---
 conference_action_button: Submit now
 ---
-conference_body: <p class="p-large">The 8th Latin American scientific python conference will be held on <b>December 11th & 12th, 100% online and free</b>. The SciPy conference brings together annually enthusiasts, developers, academics, and companies in order to show their latest projects, solutions and mainly exchange experiences.</p>
+conference_body: <p class="p-large">The 8th Latin American scientific python conference will be held on <b>December 11th & 12th, 100% online and free</b>. The SciPy conference brings together annually enthusiasts, developers, academics, and companies in order to show their latest projects, solutions and mainly exchange experiences. <b>Registration open for conference access! Click on the button below and register!</b></p>
 ---
 conference_title:
 
@@ -83,3 +83,7 @@ contact_title: Do you want to contact us?
 activate_keynotes: yes
 ---
 activate_speakers: yes
+---
+registration_action_button: Register Here
+---
+registration_form_url: ./forms/formulario-participante/
