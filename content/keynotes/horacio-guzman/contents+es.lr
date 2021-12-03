@@ -1,0 +1,42 @@
+_template: keynote.html
+---
+avatar: horacio-guzman.png
+---
+avatar_hover: horacio-guzman-hover.png
+---
+bio: Biofísico teórico en JSI y MPI para Investigación de Polímeros, PhD en física en la UAM. Trabaja en el desarrollo teórico de métodos analíticos y computacionales para la exploración de fenómenos moleculares de biomateriales, en particular los procesos de des / ensamblaje que ocurren en virus RNA. Ha presentado su trabajo publicado en varios congresos científicos, principalmente dedicados a simulaciones de Soft Matter y también en talleres de computación científica y tutoriales sobre HPC, C / C ++ y Python.
+---
+job: Group Leader
+---
+company: Jozef Stefan Institute
+---
+name: Horacio Guzman
+---
+social: #### social ####
+social_network: linkedin
+----
+link: tinyurl.com/goCompModeling
+#### social ####
+social_network: github
+----
+link: https://github.com/govarguz
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/whoratz
+---
+adicionado_em: 2021-12-02 22:30:00 -0300
+---
+published: yes
+---
+language: es
+---
+presentation_time: 2021-12-12 10:00:00 -0300
+---
+duration: 60
+---
+pronouns: he/him/his
+---
+type: keynote
+---
+level: Todos
