@@ -90,3 +90,7 @@ activate_speakers: yes
 registration_action_button: Registre-se Aqui
 ---
 registration_form_url: ./forms/formulario-participante/
+---
+discord_action_button: Servidor Discord da Conferência
+---
+discord_invite_url: https://discord.gg/9hyGsMyhda
