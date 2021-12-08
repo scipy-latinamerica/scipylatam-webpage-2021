@@ -23,8 +23,8 @@
 
     {%- block ogimage -%}
     {% if this.ogimage %}
-    <meta property="og:image" content="{{ this.ogimage|url(external=True) }}" />
-    <meta property="og:image:secure_url" content="{{ this.ogimage|url(external=True) }}" />
+    <meta property="og:image" content="{{ this.ogimage|url }}" />
+    <meta property="og:image:secure_url" content="{{ this.ogimage|url }}" />
     <meta property="og:image:width" content="{{ this.ogimage_width }}" />
     <meta property="og:image:height" content="{{ this.ogimage_height }}" />
     {% endif %}
