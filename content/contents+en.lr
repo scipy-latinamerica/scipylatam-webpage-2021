@@ -8,7 +8,7 @@ body:
 ---
 description: Welcome to SciPy Latin America 2021!
 ---
-ogimage: https://conf.scipy.lat/static/img/banner.png
+ogimage: static/img/banner.png
 ---
 ogimage_height: 320
 ---
