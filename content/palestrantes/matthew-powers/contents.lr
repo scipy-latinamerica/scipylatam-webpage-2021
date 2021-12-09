@@ -1,0 +1,56 @@
+name: Matthew Powers
+---
+pronouns: he/him
+---
+avatar: matthew-powers.png
+---
+avatar_hover: matthew-powers-hover.png
+---
+bio: Powers is a Tech Evangelist at Coiled.  He's currently working on writing a Dask book with Matt Rocklin (creator of Dask).  He worked with Spark for 6 years previously.  He has a popular blog (mungingdata.com), has written two Spark books, and has lots of open source code repos (MrPowers).  He spends most of his time in Colombia and Brasil.
+---
+company: Coiled
+---
+job: Tech Evangelist
+---
+social: #### social ####
+social_network: linkedin
+----
+link: https://www.linkedin.com/in/matthew-powers-6246525/
+#### social ####
+social_network: github
+----
+link: https://github.com/MrPowers/
+#### social ####
+social_network: twitter
+----
+link: https://twitter.com/_mrpowers_
+
+---
+type: talk
+---
+level: Todos
+---
+language: es
+---
+title: 5 razones porque Parquet es mejor que CSV por analysis de datos
+---
+description: Los archivos de Parquet, son compatibles con la mayoría de lenguajes / bibliotecas, es más fácil trabajar con ellos, y generalmente tienen mayor rendimiento que los archivos CSV. En esta charla, se resumen los principales beneficios de los archivos Parquet y muestra que son más rápidos con los análisis comparativos. También se aprenderá cómo convertir los archivos CSV a Parquet. 
+
+Las 5 razones por las cuales los archivos de Parquet son mejores que los CSV: 
+
+- Esquema: examine como el esquema está incorporado en el archivo de los metadatos aprovechando PyArrow.
+- Tamaños de archivo: Compare los tamaños del archivo cuando se escriben datos idénticos en CSV y Parquet.
+- Formato del archivo en columnas: examine los beneficios del rendimiento de la incorporación de las columnas para omitir datos. 
+- Filtro de inserción de predicados: comprenda la forma de consultar metadatos de grupos de filas enteros, en función de los metadatos de columnas inmutables- por qué los formatos de archivo inmutable son mejores. 
+- Inmutable- por qué los formatos de archivos inmutables son mejores. 
+---
+published: false
+---
+topic: Ciência de Dados
+---
+presentation_time: 2021-12-12 14:00:00-03:00
+---
+duration: 60
+---
+hide: no
+---
