@@ -77,7 +77,7 @@
                                   </thead>
                                   <tbody>
                                   {% for hour, hour_group in group|groupby('presentation_datetime.hour') %}
-                                      {% for palestrante in hour_group|sort(attribute='presentation_datetime') %}
+                                      {% for palestrante in hour_group|sort(attribute='discord_channel') %}
                                           {% set loop2_ = loop.index %}
                                           {% if loop2_ == 1 %}
                                           {{ render_schedule_hour(palestrante, hide_links=this.activate_schedule_links) }}
