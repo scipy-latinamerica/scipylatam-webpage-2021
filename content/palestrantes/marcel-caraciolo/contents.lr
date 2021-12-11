@@ -6,7 +6,9 @@ avatar: marcel-caraciolo.png
 ---
 avatar_hover: marcel-caraciolo-hover.png
 ---
-bio: I am Marcel Pinheiro Caraciolo, living in Recife, Brazil. I am computer engineer with undergoing MBA on Technology for Business in Artificial Intelligence, Data Science and Big Data and Specialization in Agile Project Management.
+bio:
+
+I am Marcel Pinheiro Caraciolo, living in Recife, Brazil. I am computer engineer with undergoing MBA on Technology for Business in Artificial Intelligence, Data Science and Big Data and Specialization in Agile Project Management.
 
 My interests are product management, bioinformatics computing, data science, sports analytics and productivity. When I am not coding or managing, I often run (training hard to be a marathonist) and build and rebuild one of my collection of Lego Architecture sets.
 ---
@@ -14,7 +16,9 @@ company: Corri por aí
 ---
 job: Engenheiro de Dados
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/marcel.caraciolo/
@@ -22,7 +26,6 @@ link: https://www.linkedin.com/in/marcel.caraciolo/
 social_network: github
 ----
 link: https://github.com/marcelcaraciolo/
-
 ---
 type: talk
 ---
@@ -32,7 +35,9 @@ language: pt
 ---
 title: Meet Runpandas: How Applied Data Science with Python Helped me to Run Better!
 ---
-description: Sports analytics is becoming increasingly popular, but there are few analytics packages focused on running activities. Running comes to attention due to the volume and variety of data produced by smartwatches and social applications (Strava, MapMyRun, etc), and is a popular sport around the world. More runners each year are looking after longer distances: 5k, 10km, 21km and 42km (the famous marathon) and 	 The package runpandas comes as an alternative to explore the historical data behind the run session as also reveal some running insights from popular world running races. For anyone interested in applied data analytics, it will be an opportunity to learn different data applications and feel like going for a run for the first time! 
+description:
+
+Sports analytics is becoming increasingly popular, but there are few analytics packages focused on running activities. Running comes to attention due to the volume and variety of data produced by smartwatches and social applications (Strava, MapMyRun, etc), and is a popular sport around the world. More runners each year are looking after longer distances: 5k, 10km, 21km and 42km (the famous marathon) and 	 The package runpandas comes as an alternative to explore the historical data behind the run session as also reveal some running insights from popular world running races. For anyone interested in applied data analytics, it will be an opportunity to learn different data applications and feel like going for a run for the first time! 
 ---
 published: false
 ---
@@ -44,3 +49,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-frevo
+---
+youtube_channel: https://www.youtube.com/watch?v=7mWV6JzCX5Y
