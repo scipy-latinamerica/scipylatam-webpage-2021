@@ -12,10 +12,12 @@ company: Jozef Stefan Institute
 ---
 name: Horacio Guzman
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
-link: tinyurl.com/goCompModeling
+link: https://www.linkedin.com/in/dr-horacio-vargas-guzman-32860178/
 #### social ####
 social_network: github
 ----
@@ -40,3 +42,7 @@ pronouns: he/him/his
 type: keynote
 ---
 level: Todos
+---
+discord_channel: #keynotes
+---
+youtube_channel: https://www.youtube.com/watch?v=ARnzXP25CiE
