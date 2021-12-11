@@ -6,13 +6,17 @@ avatar: david-gonzalez.png
 ---
 avatar_hover: david-gonzalez-hover.png
 ---
-bio: Doctor en Ingeniería Mecánica por la UFSC (Florianópolis, Brasíl) especializado en el área de fabricación. Actualmente profesor en ITESO (Guadalajara, México). Escribo código en Python para resolver problemas, organizar datos y para apoyar proyectos de investigación. Músico en mis tiempos libres. 
+bio:
+
+Doctor en Ingeniería Mecánica por la UFSC (Florianópolis, Brasíl) especializado en el área de fabricación. Actualmente profesor en ITESO (Guadalajara, México). Escribo código en Python para resolver problemas, organizar datos y para apoyar proyectos de investigación. Músico en mis tiempos libres. 
 ---
 company: Universidad ITESO
 ---
 job: Profesor
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://mx.linkedin.com/in/ochoadavid
@@ -20,7 +24,6 @@ link: https://mx.linkedin.com/in/ochoadavid
 social_network: github
 ----
 link: https://github.com/ochoadavid/
-
 ---
 type: talk
 ---
@@ -42,3 +45,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=ZNVp1E0QADU

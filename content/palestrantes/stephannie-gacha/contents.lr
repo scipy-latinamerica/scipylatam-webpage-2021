@@ -12,7 +12,9 @@ company: Quansight
 ---
 job: Software developer
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/stephannie-jimenez-44b378164/
@@ -24,7 +26,6 @@ link: https://github.com/steff456
 social_network: twitter
 ----
 link: https://twitter.com/StephannieJime2
-
 ---
 type: talk
 ---
@@ -46,3 +47,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=ZNVp1E0QADU

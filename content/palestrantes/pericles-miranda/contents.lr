@@ -12,7 +12,9 @@ company: AiBox Lab
 ---
 job: Pesquisador
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/pbcm/
@@ -20,7 +22,6 @@ link: https://www.linkedin.com/in/pbcm/
 social_network: github
 ----
 link: https://github.com/periclesmiranda/
-
 ---
 type: talk
 ---
@@ -42,3 +43,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-frevo
+---
+youtube_channel: https://www.youtube.com/watch?v=X1G39ZW23jE

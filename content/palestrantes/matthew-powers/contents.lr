@@ -12,7 +12,9 @@ company: Coiled
 ---
 job: Tech Evangelist
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/matthew-powers-6246525/
@@ -24,7 +26,6 @@ link: https://github.com/MrPowers/
 social_network: twitter
 ----
 link: https://twitter.com/_mrpowers_
-
 ---
 type: talk
 ---
@@ -34,7 +35,9 @@ language: es
 ---
 title: 5 razones porque Parquet es mejor que CSV por analysis de datos
 ---
-description: Los archivos de Parquet, son compatibles con la mayoría de lenguajes / bibliotecas, es más fácil trabajar con ellos, y generalmente tienen mayor rendimiento que los archivos CSV. En esta charla, se resumen los principales beneficios de los archivos Parquet y muestra que son más rápidos con los análisis comparativos. También se aprenderá cómo convertir los archivos CSV a Parquet. 
+description:
+
+Los archivos de Parquet, son compatibles con la mayoría de lenguajes / bibliotecas, es más fácil trabajar con ellos, y generalmente tienen mayor rendimiento que los archivos CSV. En esta charla, se resumen los principales beneficios de los archivos Parquet y muestra que son más rápidos con los análisis comparativos. También se aprenderá cómo convertir los archivos CSV a Parquet. 
 
 Las 5 razones por las cuales los archivos de Parquet son mejores que los CSV: 
 
@@ -54,3 +57,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=ZNVp1E0QADU
