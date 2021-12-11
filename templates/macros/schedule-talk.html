@@ -35,9 +35,9 @@
   {% if hide_links %}
   <td>
       {% if talk.type == 'talk' %}
-      <a href="{{ talk.youtube_channel }}" alt="{{ talk.discord_channel }}"><i class="bi bi-youtube" style="font-size: 2rem;color: #dc3545;"></i></a> {{ talk.track }}
+      <a href="{{ talk.youtube_channel }}" alt="{{ talk.discord_channel }}"><i class="bi bi-youtube" style="font-size: 2rem;color: #dc3545;"></i> {{ talk.discord_channel }} </a>
       {% endif %}
-      <a href="{{ talk.youtube_channel }}" alt="{{ talk.discord_channel }}"><i class="bi bi-discord" style="font-size: 2rem;color: #4458E5;"></i></a> {{ talk.track }}
+      <a href="{{ talk.youtube_channel }}" alt="{{ talk.discord_channel }}"><i class="bi bi-discord" style="font-size: 2rem;color: #4458E5;"></i> {{ talk.discord_channel }} </a>
   </td>
   {% endif %}
 </tr>
