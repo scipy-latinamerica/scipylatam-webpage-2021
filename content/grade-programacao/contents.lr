@@ -1,3 +1,5 @@
-_model: page
+_model: grade-programacao
 ---
 _template: grade.html
+---
+activate_schedule_links: yes
