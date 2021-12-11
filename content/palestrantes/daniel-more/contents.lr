@@ -12,7 +12,9 @@ company: Quansight
 ---
 job: Ingeniero de Software
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/dalthviz/
@@ -24,7 +26,6 @@ link: https://github.com/dalthviz
 social_network: twitter
 ----
 link: https://twitter.com/dalthviz
-
 ---
 type: talk
 ---
@@ -34,7 +35,9 @@ language: es
 ---
 title: Contributing to Open Source: From Not Knowing Python to Becoming a Spyder Core Developer
 ---
-description: In this talk, I would like to share my experience being an open source developer, how I started my journey contributing to Spyder (a development environment for scientific Python), and how contributing to this project has now become my full-time job.
+description:
+
+In this talk, I would like to share my experience being an open source developer, how I started my journey contributing to Spyder (a development environment for scientific Python), and how contributing to this project has now become my full-time job.
 
 For this, I would tell the story from how I came into contact with Spyder project's lead maintainer, started getting a handle on the repository structure and learned the how to contribute and solve bugs. I'll then describe how I began to interact with different contributors, discovering that open source is not just about coding, and how that has helped me help others not only to complete their own projects, but also learn programming, scientific computing and data analysis.
 
@@ -63,3 +66,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=ZNVp1E0QADU

@@ -12,7 +12,9 @@ company: AiBox Lab
 ---
 job: Aluno Pesquisador de Iniciação Científica
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/steffanop/
@@ -20,7 +22,6 @@ link: https://www.linkedin.com/in/steffanop/
 social_network: github
 ----
 link: https://github.com/SteffanoP
-
 ---
 type: talk
 ---
@@ -42,3 +43,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-manguebeat
+---
+youtube_channel: https://www.youtube.com/watch?v=0mdfnKCFmY8
