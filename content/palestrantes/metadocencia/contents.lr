@@ -6,13 +6,17 @@ avatar: metadocencia.png
 ---
 avatar_hover: metadocencia-hover.png
 ---
-bio: MetaDocencia nutre una comunidad de enseñanza interdisciplinaria de habla hispana mediante talleres de no más de 3 horas sobre métodos de aprendizaje activos y concretos. El objetivo de los talleres es mejorar la enseñanza de estadística y otras disciplinas. Todos los materiales de MetaDocencia son gratuitos y tienen licencia CC BY-SA para su reutilización sin fines comerciales. 
+bio:
+
+MetaDocencia nutre una comunidad de enseñanza interdisciplinaria de habla hispana mediante talleres de no más de 3 horas sobre métodos de aprendizaje activos y concretos. El objetivo de los talleres es mejorar la enseñanza de estadística y otras disciplinas. Todos los materiales de MetaDocencia son gratuitos y tienen licencia CC BY-SA para su reutilización sin fines comerciales. 
 ---
 company: 
 ---
 job: 
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/company/metadocencia/mycompany/
@@ -24,7 +28,6 @@ link: https://github.com/MetaDocencia
 social_network: twitter
 ----
 link: https://twitter.com/metadocencia
-
 ---
 type: talk
 ---
@@ -34,7 +37,9 @@ language: es
 ---
 title: Buenas Prácticas para Enseñar Programación Online
 ---
-description: En esta charla te propondremos técnicas y buenas prácticas basadas en evidencia para ayudarte a diseñar y conducir tus cursos de programación. Charlaremos acerca de estrategias para virtualizar tu clase con pocos recursos, mantener a tu audiencia motivada y lograr que tus clases y reuniones virtuales sean más accesibles.
+description:
+
+En esta charla te propondremos técnicas y buenas prácticas basadas en evidencia para ayudarte a diseñar y conducir tus cursos de programación. Charlaremos acerca de estrategias para virtualizar tu clase con pocos recursos, mantener a tu audiencia motivada y lograr que tus clases y reuniones virtuales sean más accesibles.
 
 ---
 published: false
@@ -47,3 +52,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=QOPmXZsFcNc

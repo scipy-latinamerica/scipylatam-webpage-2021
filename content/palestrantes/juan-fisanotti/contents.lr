@@ -6,14 +6,18 @@ avatar: juan-fisanotti.png
 ---
 avatar_hover: juan-fisanotti-hover.png
 ---
-bio: Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.
+bio:
+
+Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.
 Doy clases en varias materias de Ingeniería en Sistemas (usando bastante Python para ello también), me entusiasma el software libre, y me gustan mucho las espadas y los aviones.
 ---
 company: Satellogic
 ---
 job: Software engineer
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: github
 ----
 link: https://github.com/fisadev
@@ -21,7 +25,6 @@ link: https://github.com/fisadev
 social_network: twitter
 ----
 link: https://twitter.com/fisadev
-
 ---
 type: talk
 ---
@@ -43,3 +46,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=QOPmXZsFcNc

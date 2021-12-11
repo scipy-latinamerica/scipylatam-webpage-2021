@@ -6,13 +6,19 @@ avatar: kadidja-oliveira.png
 ---
 avatar_hover: kadidja-oliveira-hover.png
 ---
-bio: Analista de Sistemas (UNEB), arquivista (UnB) e tecnóloga em Gestão Pública(IFB). Mestra e Doutoranda em Ciência da Informação (UnB). Atua como Professora na área de Informação e Comunicação, Informática e Ciência da Computação. Ministra disciplinas de Lógica e Programação com Python, Engenharia de Software, Programação para Internet e Informática. Especialista em E-learning, desenvolve projetos com metodologias ativas e analítica na educação à distância. Educação continuada é seu lema. 
+bio:
+
+Analista de Sistemas (UNEB), arquivista (UnB) e tecnóloga em Gestão Pública(IFB). Mestra e Doutoranda em Ciência da Informação (UnB). Atua como Professora na área de Informação e Comunicação, Informática e Ciência da Computação. Ministra disciplinas de Lógica e Programação com Python, Engenharia de Software, Programação para Internet e Informática. Especialista em E-learning, desenvolve projetos com metodologias ativas e analítica na educação à distância. Educação continuada é seu lema. 
 ---
 company: Institituto Federal de Brasília - IFB e Universidade Federal do Amazonas- UFAM
 ---
-job: Professora e pesquisadora. 
+job:
+
+Professora e pesquisadora. 
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://br.linkedin.com/in/kadidja
@@ -24,7 +30,6 @@ link: https://github.com/Kadidjah
 social_network: twitter
 ----
 link: https://twitter.com/Kadidjah
-
 ---
 type: talk
 ---
@@ -46,3 +51,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-frevo
+---
+youtube_channel: https://www.youtube.com/watch?v=7mWV6JzCX5Y

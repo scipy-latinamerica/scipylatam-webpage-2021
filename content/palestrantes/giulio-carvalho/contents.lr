@@ -12,7 +12,9 @@ company: Open Knowledge Brasil
 ---
 job: Coordenador do Programa Ciência de Dados para Inovação Cívica
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/giuliocc/
@@ -24,7 +26,6 @@ link: https://github.com/giuliocc
 social_network: twitter
 ----
 link: https://twitter.com/ogecece
-
 ---
 type: talk
 ---
@@ -34,7 +35,9 @@ language: pt
 ---
 title: Querido Diário, Hoje Eu Raspei Dados Usando... O Método Científico?!
 ---
-description: Diários oficiais municipais são a principal forma de comunicação oficial entre os cidadãos e o poder executivo porque o governo é obrigado por lei a publicar seus atos oficiais nos diários. Porém, não há um padrão ou guia para publicar o conteúdo, ou seja, temos potencialmente 5570 municípios brasileiros publicando cada um do seu jeito. E pior, a maioria faz suas publicações em formatos fechados como PDF ou DOCX.
+description:
+
+Diários oficiais municipais são a principal forma de comunicação oficial entre os cidadãos e o poder executivo porque o governo é obrigado por lei a publicar seus atos oficiais nos diários. Porém, não há um padrão ou guia para publicar o conteúdo, ou seja, temos potencialmente 5570 municípios brasileiros publicando cada um do seu jeito. E pior, a maioria faz suas publicações em formatos fechados como PDF ou DOCX.
 
 Para atuar em cima disso, o projeto Querido Diário quer fazer com que os diários oficiais municipais mais acessíveis através da indexação dos documentos disponíveis de forma fácil e enriquecida. Estamos disponibilizando diários de cada vez mais cidades através de uma plataforma web de busca e também uma API aberta.
 
@@ -53,3 +56,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-frevo
+---
+youtube_channel: https://www.youtube.com/watch?v=7mWV6JzCX5Y

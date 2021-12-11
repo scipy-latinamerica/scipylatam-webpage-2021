@@ -12,7 +12,9 @@ company: Block Science
 ---
 job: Engenheiro de Software em HPC
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/emanuellima1/
@@ -20,7 +22,6 @@ link: https://www.linkedin.com/in/emanuellima1/
 social_network: twitter
 ----
 link: https://twitter.com/emanuel_lima1
-
 ---
 type: talk
 ---
@@ -42,3 +43,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: sala-frevo
+---
+youtube_channel: https://www.youtube.com/watch?v=7mWV6JzCX5Y

@@ -10,9 +10,13 @@ bio: Possui graduação em Sistemas Para Internet , especialização em Tecnolog
 ---
 company: Universidade do Estado do Amapá - UEAP
 ---
-job: Professor e Desenvolvedor 
+job:
+
+Professor e Desenvolvedor 
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/amersonchagas/
@@ -20,7 +24,6 @@ link: https://www.linkedin.com/in/amersonchagas/
 social_network: github
 ----
 link: https://github.com/amersonchagas
-
 ---
 type: talk
 ---
@@ -30,7 +33,9 @@ language: pt
 ---
 title: HERA: Sistema de Detecção de Violência Contra a Mulher em Vídeos de Monitoramento
 ---
-description: Há um crescente interesse em sistemas de detecção de violência de forma automática por meio de câmeras de vídeo monitoramento.
+description:
+
+Há um crescente interesse em sistemas de detecção de violência de forma automática por meio de câmeras de vídeo monitoramento.
 ainda mais interesse quando essa violência é contra a mulher.
 Os números por si só falam o quão é preocupante os índices de violência contra a mulher.
 Com base nesse problema, apresentamos uma pesquisa recente do nosso grupo de pesquisa cuja a ideia é através da construção de um dataset e com auxilio de redes convulsionais do estado da arte,  construir um modelo treinado
@@ -47,3 +52,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=QOPmXZsFcNc

@@ -12,7 +12,9 @@ company: Cajya
 ---
 job: Software engineer, AI engineer
 ---
-social: #### social ####
+social:
+
+#### social ####
 social_network: linkedin
 ----
 link: https://www.linkedin.com/in/kamanzi-francis-24143079/
@@ -24,7 +26,6 @@ link: https://github.com/musasizifrancis
 social_network: twitter
 ----
 link: https://twitter.com/FrancheKaks
-
 ---
 type: talk
 ---
@@ -46,3 +47,6 @@ duration: 60
 ---
 hide: no
 ---
+discord_channel: #sala-ciranda
+---
+youtube_channel: https://www.youtube.com/watch?v=QOPmXZsFcNc
