@@ -31,5 +31,5 @@ default = yes
 [servers.production]
 enabled = yes
 name = Production
-target = ghpages+https://scipy-latinamerica/scipylatam-webpage-2021?cname=conf.scipy.lat
+target = ghpages+https://scipy-latinamerica/scipylatam-webpage-2021
 default = no
