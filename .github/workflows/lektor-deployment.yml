@@ -1,5 +1,9 @@
 name: lektor-deployment
 
+env:
+  PYTHON_VERSION: '3.10'
+  NODE_VERSION: '14.2.0'
+
 on:
   push:
     branches: [ main ]
@@ -11,20 +15,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.7
+          python-version: ${{ env.PYTHON_VERSION }}
       - name: Install Poetry
-        uses: snok/install-poetry@v1.1.1
+        uses: snok/install-poetry@v1
         with:
-          version: 1.1.4
+          version: 1.7.1
           virtualenvs-create: true
           virtualenvs-in-project: true
+
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: .venv
           key: packages-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
@@ -35,14 +40,14 @@ jobs:
       # -----------------------------
 
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14.2.0
+          node-version: ${{ env.NODE_VERSION }}
       - name: Install Yarn
         run: npm install -g yarn
       - name: Load cached Yarn
         id: cached-yarn-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ./webpack/node_modules
           key: packages-${{ runner.os }}-${{ hashFiles('**/webpack/yarn.lock') }}
@@ -75,20 +80,21 @@ jobs:
       name: Staging
       url: 'https://dev.scipy.lat/'
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.7
+          python-version: ${{ env.PYTHON_VERSION }}
       - name: Install Poetry
-        uses: snok/install-poetry@v1.1.1
+        uses: snok/install-poetry@v1
         with:
-          version: 1.1.4
+          version: 1.7.1
           virtualenvs-create: true
           virtualenvs-in-project: true
+
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: .venv
           key: packages-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
@@ -99,14 +105,14 @@ jobs:
       # -----------------------------
 
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14.2.0
+          node-version: ${{ env.NODE_VERSION }}
       - name: Install Yarn
         run: npm install -g yarn
       - name: Load cached Yarn
         id: cached-yarn-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ./webpack/node_modules
           key: packages-${{ runner.os }}-${{ hashFiles('**/webpack/yarn.lock') }}
@@ -137,20 +143,21 @@ jobs:
       name: Production
       url: 'https://conf.scipy.lat/'
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.7
+          python-version: ${{ env.PYTHON_VERSION }}
       - name: Install Poetry
-        uses: snok/install-poetry@v1.1.1
+        uses: snok/install-poetry@v1
         with:
-          version: 1.1.4
+          version: 1.7.1
           virtualenvs-create: true
           virtualenvs-in-project: true
+
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: .venv
           key: packages-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
@@ -161,14 +168,14 @@ jobs:
       # -----------------------------
 
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 14.2.0
+          node-version: ${{ env.NODE_VERSION }}
       - name: Install Yarn
         run: npm install -g yarn
       - name: Load cached Yarn
         id: cached-yarn-dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ./webpack/node_modules
           key: packages-${{ runner.os }}-${{ hashFiles('**/webpack/yarn.lock') }}
